@@ -1,0 +1,15 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
+				"C:/Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/Levels/House.umap",
+				"C:/Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/StarterContent/Materials/M_Ground_Grass_Scaling.uasset",
+				"C:/Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/StarterContent/Materials/M_Ground_Grass_Repeat.uasset"
+			]
+		}
+	]
+}
