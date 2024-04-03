@@ -8,7 +8,12 @@
 				"C:/Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
 				"C:/Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/Levels/House.umap",
 				"C:/Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/StarterContent/Materials/M_Ground_Grass_Scaling.uasset",
-				"C:/Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/StarterContent/Materials/M_Ground_Grass_Repeat.uasset"
+				"C:/Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/StarterContent/Materials/M_Ground_Grass_Repeat.uasset",
+				"C:/Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/Blueprints/BP_Spawner.uasset",
+				"C:/Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/Blueprints/BP_MyCharacter.uasset",
+				"C:/Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/Blueprints/BP_SpawnLocation.uasset",
+				"C:/Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/StarterContent/Props/Materials/M_Chair.uasset",
+				"C:/Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/StarterContent/Props/Materials/M_TableRound.uasset"
 			]
 		}
 	]
