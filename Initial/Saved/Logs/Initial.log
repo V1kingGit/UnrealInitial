@@ -3486,3 +3486,35 @@ Make sure 'ABP_MyCharacter_C' has been compiled for  Set IsFalling
 [2024.04.11-02.26.45:597][540]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=26
 [2024.04.11-02.26.45:616][540]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
 [2024.04.11-02.26.45:646][541]LogPlayLevel: Display: Destroying online subsystem :Context_78
+[2024.04.11-02.27.36:207][281]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2024.04.11-02.27.36:209][281]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/House' took 0.020
+[2024.04.11-02.27.36:209][281]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode] ([2] browsable assets)...
+[2024.04.11-02.27.36:209][281]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode]
+[2024.04.11-02.27.36:213][281]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode_Auto4
+[2024.04.11-02.27.36:213][281]LogSavePackage: Moving '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Saved/BP_ThirdPersonGameMode_Auto4A917E64C44661ACD95D170A6D30AB3BF.tmp' to '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_ThirdPersonGameMode_Auto4.uasset'
+[2024.04.11-02.27.36:215][281]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Blueprints/BP_MyCharacter] ([2] browsable assets)...
+[2024.04.11-02.27.36:225][281]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/ThirdPerson/Blueprints/BP_MyCharacter.BP_MyCharacter]
+[2024.04.11-02.27.36:225][281]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Blueprints/BP_MyCharacter]
+[2024.04.11-02.27.36:240][281]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Blueprints/BP_MyCharacter_Auto4
+[2024.04.11-02.27.36:241][281]LogSavePackage: Moving '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Saved/BP_MyCharacter_Auto49A9BE4D840FFE6B3862B68963BEADFBB.tmp' to '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Saved/Autosaves/Game/ThirdPerson/Blueprints/BP_MyCharacter_Auto4.uasset'
+[2024.04.11-02.27.36:243][281]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Animation/BS_Weapon] ([1] browsable assets)...
+[2024.04.11-02.27.36:252][281]OBJ SavePackage:     Rendered thumbnail for [BlendSpace /Game/ThirdPerson/Animation/BS_Weapon.BS_Weapon]
+[2024.04.11-02.27.36:252][281]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Animation/BS_Weapon]
+[2024.04.11-02.27.36:254][281]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Animation/BS_Weapon_Auto4
+[2024.04.11-02.27.36:254][281]LogSavePackage: Moving '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Saved/BS_Weapon_Auto453024EB846EC4F81430867B3C1B0229E.tmp' to '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Saved/Autosaves/Game/ThirdPerson/Animation/BS_Weapon_Auto4.uasset'
+[2024.04.11-02.27.36:256][281]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Animation/Idle_Rifle_Hip] ([1] browsable assets)...
+[2024.04.11-02.27.36:265][281]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/ThirdPerson/Animation/Idle_Rifle_Hip.Idle_Rifle_Hip]
+[2024.04.11-02.27.36:265][281]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Animation/Idle_Rifle_Hip]
+[2024.04.11-02.27.36:288][281]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Animation/Idle_Rifle_Hip_Auto4
+[2024.04.11-02.27.36:288][281]LogSavePackage: Moving '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Saved/Idle_Rifle_Hip_Auto4BC335BAB480D696F6D5BB19110340461.tmp' to '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Saved/Autosaves/Game/ThirdPerson/Animation/Idle_Rifle_Hip_Auto4.uasset'
+[2024.04.11-02.27.36:290][281]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Animation/Jog_Fwd_Rifle] ([1] browsable assets)...
+[2024.04.11-02.27.36:300][281]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/ThirdPerson/Animation/Jog_Fwd_Rifle.Jog_Fwd_Rifle]
+[2024.04.11-02.27.36:300][281]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Animation/Jog_Fwd_Rifle]
+[2024.04.11-02.27.36:320][281]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Animation/Jog_Fwd_Rifle_Auto4
+[2024.04.11-02.27.36:320][281]LogSavePackage: Moving '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Saved/Jog_Fwd_Rifle_Auto47D0ED9CB41C22147420DFCB6DFB159AB.tmp' to '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Saved/Autosaves/Game/ThirdPerson/Animation/Jog_Fwd_Rifle_Auto4.uasset'
+[2024.04.11-02.27.36:322][281]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/ThirdPerson/Animation/Reload_Rifle_Hip] ([1] browsable assets)...
+[2024.04.11-02.27.36:331][281]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/ThirdPerson/Animation/Reload_Rifle_Hip.Reload_Rifle_Hip]
+[2024.04.11-02.27.36:331][281]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Animation/Reload_Rifle_Hip]
+[2024.04.11-02.27.36:351][281]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Animation/Reload_Rifle_Hip_Auto4
+[2024.04.11-02.27.36:351][281]LogSavePackage: Moving '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Saved/Reload_Rifle_Hip_Auto48521E63E420BB559B7582AA3CA52C471.tmp' to '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Saved/Autosaves/Game/ThirdPerson/Animation/Reload_Rifle_Hip_Auto4.uasset'
+[2024.04.11-02.27.36:352][281]LogFileHelpers: Auto-saving content packages took 0.143
