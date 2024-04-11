@@ -11,11 +11,11 @@ class INITIAL_API ALightSwitch : public AActor
 {
 	GENERATED_BODY()
 	
-public:	
+public:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Light Switch")
 	class UPointLightComponent* PointLight = NULL;
 
-	UFUNCTION(BlueprintCallable, BlueprintNativeEvent, Category = "Light Switch")
+	UFUNCTION(BlueprintCallable, Category = "Light Switch")
 	void Toggle();
 
 	// Sets default values for this actor's properties
@@ -34,7 +34,7 @@ private:
 
 	bool IsInInteractableRange = false;
 
-	bool IsToggledOn = false;
+	bool IsToggledOn = true;
 
 protected:
 	// Called when the game starts or when spawned

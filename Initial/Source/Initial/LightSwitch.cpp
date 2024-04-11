@@ -32,6 +32,15 @@ void ALightSwitch::Tick(float DeltaTime)
 
 void ALightSwitch::Toggle()
 {
+	if(GEngine)
+		GEngine->AddOnScreenDebugMessage(-1, 0.5f, FColor::Yellow, TEXT("Called Toggle"));
+
+	if(!IsInInteractableRange)
+		return;
+
+	if(GEngine)
+		GEngine->AddOnScreenDebugMessage(-1, 0.5f, FColor::Yellow, TEXT("Toggling"));
+
 	IsToggledOn = !IsToggledOn;
 	PointLight->SetVisibility(IsToggledOn);
 }
