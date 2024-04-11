@@ -191,13 +191,7 @@ void EmptyLinkFunctionForGeneratedCodeLightSwitch() {}
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ALightSwitch_OnOverlapEnd_Statics::Function_MetaDataParams[] = {
-#if !UE_BUILD_SHIPPING
-		{ "Comment", "// declare overlap end function\n" },
-#endif
 		{ "ModuleRelativePath", "LightSwitch.h" },
-#if !UE_BUILD_SHIPPING
-		{ "ToolTip", "declare overlap end function" },
-#endif
 	};
 #endif
 	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_ALightSwitch_OnOverlapEnd_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ALightSwitch, nullptr, "OnOverlapEnd", nullptr, nullptr, Z_Construct_UFunction_ALightSwitch_OnOverlapEnd_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_ALightSwitch_OnOverlapEnd_Statics::PropPointers), sizeof(Z_Construct_UFunction_ALightSwitch_OnOverlapEnd_Statics::LightSwitch_eventOnOverlapEnd_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00040401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_ALightSwitch_OnOverlapEnd_Statics::Function_MetaDataParams), Z_Construct_UFunction_ALightSwitch_OnOverlapEnd_Statics::Function_MetaDataParams) };
@@ -266,7 +260,7 @@ void EmptyLinkFunctionForGeneratedCodeLightSwitch() {}
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_ALightSwitch_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_ALightSwitch_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_ALightSwitch_OnOverlapBegin, "OnOverlapBegin" }, // 2864136474
-		{ &Z_Construct_UFunction_ALightSwitch_OnOverlapEnd, "OnOverlapEnd" }, // 1403851215
+		{ &Z_Construct_UFunction_ALightSwitch_OnOverlapEnd, "OnOverlapEnd" }, // 1717473209
 		{ &Z_Construct_UFunction_ALightSwitch_Toggle, "Toggle" }, // 3080324355
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_ALightSwitch_Statics::FuncInfo) < 2048);
@@ -334,9 +328,9 @@ void EmptyLinkFunctionForGeneratedCodeLightSwitch() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Frederik_Documents_GitHub_UnrealInitial_Initial_Source_Initial_LightSwitch_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ALightSwitch, ALightSwitch::StaticClass, TEXT("ALightSwitch"), &Z_Registration_Info_UClass_ALightSwitch, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ALightSwitch), 4125041297U) },
+		{ Z_Construct_UClass_ALightSwitch, ALightSwitch::StaticClass, TEXT("ALightSwitch"), &Z_Registration_Info_UClass_ALightSwitch, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ALightSwitch), 935012003U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Frederik_Documents_GitHub_UnrealInitial_Initial_Source_Initial_LightSwitch_h_3248448095(TEXT("/Script/Initial"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Frederik_Documents_GitHub_UnrealInitial_Initial_Source_Initial_LightSwitch_h_4175920376(TEXT("/Script/Initial"),
 		Z_CompiledInDeferFile_FID_Users_Frederik_Documents_GitHub_UnrealInitial_Initial_Source_Initial_LightSwitch_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Frederik_Documents_GitHub_UnrealInitial_Initial_Source_Initial_LightSwitch_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

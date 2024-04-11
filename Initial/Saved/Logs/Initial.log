@@ -2308,3 +2308,180 @@ C:\Users\Frederik\Documents\GitHub\UnrealInitial\Initial\Binaries\Win64\UnrealEd
 [2024.04.11-23.18.41:178][267]Display: Reload/Re-instancing Complete: 1 class unchanged, 3 functions remapped
 [2024.04.11-23.18.41:178][267]LogLiveCoding: Display: Live coding succeeded
 [2024.04.11-23.20.22:418][943]LogUObjectHash: Compacting FUObjectHashTables data took  21.93ms
+[2024.04.11-23.21.06:923][237]Running C:/Program Files/Epic Games/UE_5.3/Engine/Build/BatchFiles/Build.bat  -projectfiles -project="C:/Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Initial.uproject" -game -rocket -progress
+[2024.04.11-23.21.07:076][237]Using bundled DotNet SDK version: 6.0.302
+[2024.04.11-23.21.07:076][237]Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -projectfiles -project="C:/Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Initial.uproject" -game -rocket -progress
+[2024.04.11-23.21.08:595][237]Log file: C:\Users\Frederik\AppData\Local\UnrealBuildTool\Log_GPF.txt
+[2024.04.11-23.21.09:911][237]
+[2024.04.11-23.21.09:911][237]Some Platforms were skipped due to invalid SDK setup: IOS, Android, Linux, LinuxArm64.
+[2024.04.11-23.21.09:911][237]See the log file for detailed information
+[2024.04.11-23.21.09:911][237]
+[2024.04.11-23.21.09:911][237]
+[2024.04.11-23.21.09:912][237]Generating VisualStudio project files:
+[2024.04.11-23.21.09:912][237]Discovering modules, targets and source code for project...
+[2024.04.11-23.21.13:143][237]Binding IntelliSense data...
+[2024.04.11-23.21.31:208][237]LogDerivedDataCache: C:/Users/Frederik/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.471 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1248 files in 2076 folders with total size 86 MiB.
+[2024.04.11-23.21.44:286][237]Binding IntelliSense data... 75%
+[2024.04.11-23.21.44:287][237]Binding IntelliSense data... 100%
+[2024.04.11-23.21.44:287][237]Creating common properties file...
+[2024.04.11-23.21.44:420][237]Creating common properties file... 0%
+[2024.04.11-23.21.44:420][237]Writing project files...
+[2024.04.11-23.21.48:159][237]Writing project files... 100%
+[2024.04.11-23.21.48:160][237]
+[2024.04.11-23.21.48:160][237]Generating QueryTargets data for editor...
+[2024.04.11-23.21.48:474][237]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.04.11-23.21.49:515][237]LogVSAccessor: Warning: Couldn't goto line number '1' in 'C:/Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Source/Initial/OpenableDoor.h'.
+[2024.04.11-23.21.49:515][237]LogVSAccessor: Warning: Couldn't open file 'C:/Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Source/Initial/OpenableDoor.cpp'.
+[2024.04.11-23.21.49:516][237]LogSlate: Window 'Add C++ Class' being destroyed
+[2024.04.11-23.21.49:600][237]LogAutomationController: Ignoring very large delta of 47.29 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.04.11-23.22.50:919][ 34]LogLiveCoding: Display:    Creating library C:\Users\Frederik\Documents\GitHub\UnrealInitial\Initial\Binaries\Win64\UnrealEditor-Initial.patch_11.lib and object C:\Users\Frederik\Documents\GitHub\UnrealInitial\Initial\Binaries\Win64\UnrealEditor-Initial.patch_11.exp
+[2024.04.11-23.22.51:333][ 49]LogClass: UPackage /Script/Initial Reload.
+[2024.04.11-23.22.51:334][ 49]LogClass: Could not find existing class OpenableDoor in package /Script/Initial for reload, assuming new or modified class
+[2024.04.11-23.22.51:775][ 49]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2024.04.11-23.22.53:250][ 49]LogAutomationController: Ignoring very large delta of 2.08 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.04.11-23.22.53:279][ 50]Display: Reload/Re-instancing Complete: 1 package changed, 1 class new
+[2024.04.11-23.22.53:279][ 50]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2024.04.11-23.26.24:683][712]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.04.11-23.27.06:075][475]LogLiveCoding: Display:    Creating library C:\Users\Frederik\Documents\GitHub\UnrealInitial\Initial\Binaries\Win64\UnrealEditor-Initial.patch_12.lib and object C:\Users\Frederik\Documents\GitHub\UnrealInitial\Initial\Binaries\Win64\UnrealEditor-Initial.patch_12.exp
+[2024.04.11-23.27.06:596][477]LogClass: UPackage /Script/Initial Reload.
+[2024.04.11-23.27.06:596][477]LogClass: UClass LightSwitch Reload.
+[2024.04.11-23.27.06:602][477]LogClass: Could not find existing class LightSwitch in package /Script/Initial for reload, assuming new or modified class
+[2024.04.11-23.27.06:602][477]LogClass: Function OnOverlapBegin is new or belongs to a modified class.
+[2024.04.11-23.27.06:603][477]LogClass: Function OnOverlapEnd is new or belongs to a modified class.
+[2024.04.11-23.27.06:603][477]LogClass: Function Toggle is new or belongs to a modified class.
+[2024.04.11-23.27.06:770][477]Re-instancing LightSwitch after reload.
+[2024.04.11-23.27.06:904][477]LogActor: Warning: BP_MyLightSwitch_C /Game/Levels/House.House:PersistentLevel.BP_MyLightSwitch_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.04.11-23.27.07:073][477]LogActor: Warning: BP_MyLightSwitch_C /Engine/Transient.World_2:PersistentLevel.BP_MyLightSwitch_C_16 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.04.11-23.27.07:075][477]LogActor: Warning: BP_MyLightSwitch_C /Engine/Transient.World_6:PersistentLevel.BP_MyLightSwitch_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.04.11-23.27.07:192][477]LogActor: Warning: BP_MyLightSwitch_C /Engine/Transient.World_2:PersistentLevel.BP_MyLightSwitch_C_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.04.11-23.27.07:641][477]LogUObjectHash: Compacting FUObjectHashTables data took   4.50ms
+[2024.04.11-23.27.08:438][478]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2024.04.11-23.27.08:438][478]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2024.04.11-23.27.49:614][921]BlueprintLog: New page: Compile BP_MyLightSwitch
+[2024.04.11-23.27.49:621][921]LogActor: Warning: BP_MyLightSwitch_C /Game/Levels/House.House:PersistentLevel.BP_MyLightSwitch_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.04.11-23.27.49:656][921]LogActor: Warning: BP_MyLightSwitch_C /Engine/Transient.World_2:PersistentLevel.BP_MyLightSwitch_C_17 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.04.11-23.27.49:656][921]LogActor: Warning: BP_MyLightSwitch_C /Engine/Transient.World_6:PersistentLevel.BP_MyLightSwitch_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.04.11-23.27.49:829][921]LogUObjectHash: Compacting FUObjectHashTables data took   2.63ms
+[2024.04.11-23.27.49:840][921]LogActor: Warning: BP_MyLightSwitch_C /Engine/Transient.World_2:PersistentLevel.BP_MyLightSwitch_C_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.04.11-23.28.28:778][813]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.11-23.28.28:874][813]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/House" FILE="../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/Levels/House.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.04.11-23.28.28:972][813]LogUObjectHash: Compacting FUObjectHashTables data took   5.96ms
+[2024.04.11-23.28.29:016][813]LogSavePackage: Moving output files for package: /Game/Levels/House
+[2024.04.11-23.28.29:017][813]LogSavePackage: Moving '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Saved/HouseEC8208ED41F866EFB93C60B780FFF527.tmp' to '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/Levels/House.umap'
+[2024.04.11-23.28.29:064][813]LogFileHelpers: Saving map 'House' took 0.197
+[2024.04.11-23.28.29:083][813]LogFileHelpers: InternalPromptForCheckoutAndSave took 305 ms (total: 1.82 sec)
+[2024.04.11-23.28.29:088][813]AssetCheck: New page: Asset Save: House
+[2024.04.11-23.28.29:088][813]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/House.House
+[2024.04.11-23.28.30:544][911]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.11-23.28.30:585][911]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.11-23.28.30:587][911]PIE: New page: PIE session: House (12. apr. 2024 03.28.30)
+[2024.04.11-23.28.30:593][911]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_House
+[2024.04.11-23.28.30:638][911]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044508s)
+[2024.04.11-23.28.30:638][911]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/House.House to /Game/Levels/UEDPIE_0_House.House (0.044992s)
+[2024.04.11-23.28.30:665][911]LogUObjectHash: Compacting FUObjectHashTables data took   2.82ms
+[2024.04.11-23.28.30:693][911]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.11-23.28.30:707][911]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.11-23.28.30:724][911]LogAIModule: Creating AISystem for world House
+[2024.04.11-23.28.30:737][911]LogPlayLevel: PIE: World Init took: (0.050454s)
+[2024.04.11-23.28.30:740][911]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2024.04.11-23.28.30:742][911]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.11-23.28.30:742][911]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.11-23.28.30:742][911]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.11-23.28.30:742][911]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.11-23.28.30:742][911]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.11-23.28.30:742][911]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.11-23.28.30:742][911]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.11-23.28.30:742][911]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.11-23.28.30:747][911]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.11-23.28.30:747][911]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.11-23.28.30:747][911]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.11-23.28.30:756][911]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.11-23.28.30:808][911]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Logitech G35 Headset)
+[2024.04.11-23.28.30:812][911]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.11-23.28.30:812][911]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.11-23.28.30:813][911]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.11-23.28.30:816][911]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2024.04.11-23.28.30:816][911]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=13
+[2024.04.11-23.28.30:821][911]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2024.04.11-23.28.30:821][911]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2024.04.11-23.28.30:822][911]LogInit: FAudioDevice initialized with ID 13.
+[2024.04.11-23.28.30:822][911]LogAudio: Display: Audio Device (ID: 13) registered with world 'House'.
+[2024.04.11-23.28.30:822][911]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2024.04.11-23.28.30:877][911]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.04.11-23.28.30:914][911]LogWorld: Bringing World /Game/Levels/UEDPIE_0_House.House up for play (max tick rate 0) at 2024.04.12-01.28.30
+[2024.04.11-23.28.30:932][911]LogWorld: Bringing up level for play took: 0.053131
+[2024.04.11-23.28.30:948][911]LogOnline: OSS: Created online subsystem instance for: :Context_27
+[2024.04.11-23.28.31:016][911]PIE: Server logged in
+[2024.04.11-23.28.31:017][911]PIE: Play in editor total start time 0,455 seconds.
+[2024.04.11-23.28.38:150][495]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.11-23.28.38:150][495]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_House
+[2024.04.11-23.28.38:155][495]LogWorld: UWorld::CleanupWorld for House, bSessionEnded=true, bCleanupResources=true
+[2024.04.11-23.28.38:157][495]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.11-23.28.38:200][495]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.11-23.28.38:206][495]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.11-23.28.38:223][495]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.11-23.28.38:225][495]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2024.04.11-23.28.38:227][495]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.04.11-23.28.38:258][495]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13
+[2024.04.11-23.28.38:340][495]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2024.04.11-23.28.38:469][496]LogPlayLevel: Display: Destroying online subsystem :Context_27
+[2024.04.11-23.34.05:759][120]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.04.11-23.34.42:026][451]LogLiveCoding: Display:    Creating library C:\Users\Frederik\Documents\GitHub\UnrealInitial\Initial\Binaries\Win64\UnrealEditor-Initial.patch_13.lib and object C:\Users\Frederik\Documents\GitHub\UnrealInitial\Initial\Binaries\Win64\UnrealEditor-Initial.patch_13.exp
+[2024.04.11-23.34.42:776][453]LogClass: UPackage /Script/Initial Reload.
+[2024.04.11-23.34.42:776][453]LogClass: UClass LightSwitch Reload.
+[2024.04.11-23.34.42:777][453]LogClass: UClass OpenableDoor Reload.
+[2024.04.11-23.34.42:777][453]LogClass: Could not find existing class LightSwitch in package /Script/Initial for reload, assuming new or modified class
+[2024.04.11-23.34.42:777][453]LogClass: Function OnOverlapBegin is new or belongs to a modified class.
+[2024.04.11-23.34.42:777][453]LogClass: Function OnOverlapEnd is new or belongs to a modified class.
+[2024.04.11-23.34.42:778][453]LogClass: Function Toggle is new or belongs to a modified class.
+[2024.04.11-23.34.42:778][453]LogClass: Could not find existing class OpenableDoor in package /Script/Initial for reload, assuming new or modified class
+[2024.04.11-23.34.42:778][453]LogClass: Function OnOverlapBegin is new or belongs to a modified class.
+[2024.04.11-23.34.42:778][453]LogClass: Function OnOverlapEnd is new or belongs to a modified class.
+[2024.04.11-23.34.42:778][453]LogClass: Function Toggle is new or belongs to a modified class.
+[2024.04.11-23.34.42:809][453]Re-instancing LightSwitch after reload.
+[2024.04.11-23.34.42:829][453]LogActor: Warning: BP_MyLightSwitch_C /Game/Levels/House.House:PersistentLevel.BP_MyLightSwitch_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.04.11-23.34.42:831][453]LogActor: Warning: BP_MyLightSwitch_C /Engine/Transient.World_2:PersistentLevel.BP_MyLightSwitch_C_18 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.04.11-23.34.42:832][453]LogActor: Warning: BP_MyLightSwitch_C /Engine/Transient.World_6:PersistentLevel.BP_MyLightSwitch_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.04.11-23.34.42:858][453]LogActor: Warning: BP_MyLightSwitch_C /Engine/Transient.World_2:PersistentLevel.BP_MyLightSwitch_C_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.04.11-23.34.42:907][453]Re-instancing OpenableDoor after reload.
+[2024.04.11-23.34.43:059][453]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2024.04.11-23.34.43:748][454]Display: Reload/Re-instancing Complete: 1 package changed, 2 classes changed
+[2024.04.11-23.34.43:748][454]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2024.04.11-23.38.37:079][204]LogUObjectHash: Compacting FUObjectHashTables data took   3.35ms
+[2024.04.11-23.38.37:086][204]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/House' took 0.359
+[2024.04.11-23.38.37:095][204]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/Blueprints/BP_MyLightSwitch] ([2] browsable assets)...
+[2024.04.11-23.38.37:200][204]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/BP_MyLightSwitch.BP_MyLightSwitch]
+[2024.04.11-23.38.37:201][204]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_MyLightSwitch]
+[2024.04.11-23.38.37:329][204]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprints/BP_MyLightSwitch_Auto3
+[2024.04.11-23.38.37:329][204]LogSavePackage: Moving '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Saved/BP_MyLightSwitch_Auto3DFA2F8654C64ADE683C8F1B75F4800B8.tmp' to '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Saved/Autosaves/Game/Blueprints/BP_MyLightSwitch_Auto3.uasset'
+[2024.04.11-23.38.37:366][204]LogFileHelpers: Auto-saving content packages took 0.279
+[2024.04.11-23.42.43:604][444]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.04.11-23.43.14:740][520]LogAutomationController: Ignoring very large delta of 6.41 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.04.11-23.43.25:391][954]LogLiveCoding: Display:    Creating library C:\Users\Frederik\Documents\GitHub\UnrealInitial\Initial\Binaries\Win64\UnrealEditor-Initial.patch_14.lib and object C:\Users\Frederik\Documents\GitHub\UnrealInitial\Initial\Binaries\Win64\UnrealEditor-Initial.patch_14.exp
+[2024.04.11-23.43.27:509][957]LogUObjectHash: Compacting FUObjectHashTables data took   4.74ms
+[2024.04.11-23.43.28:533][957]LogAutomationController: Ignoring very large delta of 2.33 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.04.11-23.43.28:564][958]Display: Reload/Re-instancing Complete: No object changes detected
+[2024.04.11-23.43.28:565][958]LogLiveCoding: Display: Live coding succeeded
+[2024.04.11-23.43.37:655][552]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.11-23.43.37:765][552]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_MyLightSwitch" FILE="../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/Blueprints/BP_MyLightSwitch.uasset" SILENT=true
+[2024.04.11-23.43.37:789][552]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_MyLightSwitch
+[2024.04.11-23.43.37:792][552]LogSavePackage: Moving '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Saved/BP_MyLightSwitch23FD48204AE6C07806ADBB96D4F388A2.tmp' to '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/Blueprints/BP_MyLightSwitch.uasset'
+[2024.04.11-23.43.37:842][552]LogFileHelpers: InternalPromptForCheckoutAndSave took 183 ms (total: 2.00 sec)
+[2024.04.11-23.43.37:845][552]AssetCheck: New page: Asset Save: BP_MyLightSwitch
+[2024.04.11-23.43.37:846][552]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_MyLightSwitch.BP_MyLightSwitch
+[2024.04.11-23.43.38:625][608]BlueprintLog: New page: Compile BP_MyLightSwitch
+[2024.04.11-23.43.38:684][608]LogActor: Warning: BP_MyLightSwitch_C /Game/Levels/House.House:PersistentLevel.BP_MyLightSwitch_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.04.11-23.43.38:694][608]LogActor: Warning: BP_MyLightSwitch_C /Engine/Transient.World_2:PersistentLevel.BP_MyLightSwitch_C_19 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.04.11-23.43.38:695][608]LogActor: Warning: BP_MyLightSwitch_C /Engine/Transient.World_6:PersistentLevel.BP_MyLightSwitch_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.04.11-23.43.38:858][608]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2024.04.11-23.43.38:868][608]LogActor: Warning: BP_MyLightSwitch_C /Engine/Transient.World_2:PersistentLevel.BP_MyLightSwitch_C_20 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.04.11-23.44.56:856][456]LogUObjectHash: Compacting FUObjectHashTables data took   6.58ms
+[2024.04.11-23.44.56:867][456]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.11-23.44.56:904][456]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/House" FILE="../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/Levels/House.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.04.11-23.44.57:063][456]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2024.04.11-23.44.57:109][456]LogSavePackage: Moving output files for package: /Game/Levels/House
+[2024.04.11-23.44.57:111][456]LogSavePackage: Moving '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Saved/House710391EB459EB890BB7DE9A902BFEC7A.tmp' to '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/Levels/House.umap'
+[2024.04.11-23.44.57:144][456]LogFileHelpers: Saving map 'House' took 0.241
+[2024.04.11-23.44.57:154][456]LogFileHelpers: InternalPromptForCheckoutAndSave took 286 ms (total: 2.29 sec)
+[2024.04.11-23.44.57:159][456]AssetCheck: New page: Asset Save: House
+[2024.04.11-23.44.57:159][456]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/House.House

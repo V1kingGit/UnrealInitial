@@ -48,5 +48,11 @@
     <ClInclude Include="..\..\Source\Initial\MyCharacter.h">
       <Filter>Source\Initial</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Initial\OpenableDoor.cpp">
+      <Filter>Source\Initial</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Initial\OpenableDoor.h">
+      <Filter>Source\Initial</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
