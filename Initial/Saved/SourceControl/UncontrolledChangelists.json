@@ -5,15 +5,32 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
-				"C:/Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/ThirdPerson/Blueprints/BP_MyCharacter.uasset",
 				"C:/Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/ThirdPerson/Blueprints/BP_ThirdPersonGameMode.uasset",
-				"C:/Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/ThirdPerson/Blueprints/BP_MyThirdPersonCharacter.uasset",
 				"C:/Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/Blueprints/BP_Spawner.uasset",
 				"C:/Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/Blueprints/BP_ForeignCharacter.uasset",
-				"C:/Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/Blueprints/BP_MyCharacter.uasset",
 				"C:/Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/ThirdPerson/Animation/ABP_MyCharacter.uasset",
-				"C:/Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/ThirdPerson/Animation/BS_Has_Weapon.uasset",
-				"C:/Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/ThirdPerson/Animation/BS_Weapon.uasset"
+				"C:/Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/ThirdPerson/Animation/BS_Weapon.uasset",
+				"C:/Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/ThirdPerson/Blueprints/BP_WeaponPickup.uasset",
+				"C:/Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/ThirdPerson/Blueprints/BP_MyCharacter.uasset",
+				"C:/Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/ThirdPerson/Blueprints/BP_WeaponHandheld.uasset",
+				"C:/Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/ThirdPerson/Blueprints/BP_Weapon_Handheld.uasset",
+				"C:/Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/ThirdPerson/Blueprints/BP_Weapon_Pickup.uasset",
+				"C:/Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/Characters/Mannequins/Meshes/SKM_Quinn.uasset",
+				"C:/Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/ThirdPerson/Blueprints/BP_Projectile.uasset",
+				"C:/Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/ThirdPerson/Input/Actions/IA_Shoot.uasset",
+				"C:/Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/ThirdPerson/Input/IMC_Default.uasset",
+				"C:/Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/ThirdPerson/Animation/BS_Aim.uasset",
+				"C:/Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/Levels/House.umap",
+				"C:/Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/ThirdPerson/Animation/Aim/Aim_Space_Hip.uasset",
+				"C:/Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/ThirdPerson/Animation/Aim/Aim_Up.uasset",
+				"C:/Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/ThirdPerson/Animation/Aim/Aim_Down.uasset",
+				"C:/Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/ThirdPerson/Animation/Aim/Aim_Offset.uasset",
+				"C:/Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/Characters/Mannequins/Animations/Manny/MM_Land.uasset",
+				"C:/Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/ThirdPerson/Animation/Reload_Rifle_Hip.uasset",
+				"C:/Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/ThirdPerson/Blueprints/BP_MyCharacter.uasset",
+				"C:/Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/ThirdPerson/Blueprints/BP_MyThirdPersonCharacter.uasset",
+				"C:/Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/Blueprints/BP_MyCharacter.uasset",
+				"C:/Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/ThirdPerson/Animation/BS_Has_Weapon.uasset"
 			]
 		}
 	]
