@@ -110,6 +110,8 @@
     <None Include="..\..\Source\Initial.Target.cs"/>
     <None Include="..\..\Source\InitialEditor.Target.cs"/>
     <None Include="..\..\.vsconfig"/>
+    <None Include="..\..\Config\DefaultEngine.ini"/>
+    <None Include="..\..\Config\DefaultInput.ini"/>
     <None Include="..\..\Source\Initial\Initial.Build.cs"/>
     <ClCompile Include="..\..\Source\Initial\Initial.cpp">
       <AdditionalIncludeDirectories>$(ClCompile_AdditionalIncludeDirectories)</AdditionalIncludeDirectories>

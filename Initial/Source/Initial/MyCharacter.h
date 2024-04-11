@@ -9,12 +9,15 @@
 UCLASS()
 class INITIAL_API AMyCharacter : public ACharacter
 {
-	UPROPERTY()
-		int health = 100;
-
 	GENERATED_BODY()
 
 public:
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Character | Health")
+	int health = 100;
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Character | Test")
+	int test = 50;
+
 	// Sets default values for this character's properties
 	AMyCharacter();
 
