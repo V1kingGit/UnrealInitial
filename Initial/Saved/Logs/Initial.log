@@ -13865,3 +13865,1177 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.04.11-18.47.13:562][537]LogFileHelpers: InternalPromptForCheckoutAndSave took 135 ms (total: 23.2 sec)
 [2024.04.11-18.47.13:564][537]AssetCheck: New page: Asset Save: House
 [2024.04.11-18.47.13:564][537]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/House.House
+[2024.04.11-18.50.14:455][526]LogEditorTransaction: Undo Move Node
+[2024.04.11-18.50.14:710][526]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_37:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2024.04.11-18.50.15:861][570]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.11-18.50.15:956][570]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Blueprints/BP_MyCharacter
+[2024.04.11-18.50.15:957][570]LogSavePackage: Moving '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Saved/BP_MyCharacter1A91FDCD4BEC886EBCF4F587D4FF65D0.tmp' to '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/ThirdPerson/Blueprints/BP_MyCharacter.uasset'
+[2024.04.11-18.50.15:973][570]LogFileHelpers: InternalPromptForCheckoutAndSave took 112 ms (total: 23.3 sec)
+[2024.04.11-18.50.15:976][570]AssetCheck: New page: Asset Save: BP_MyCharacter
+[2024.04.11-18.50.15:976][570]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/ThirdPerson/Blueprints/BP_MyCharacter.BP_MyCharacter
+[2024.04.11-18.52.23:407][566]Running C:/Program Files/Epic Games/UE_5.3/Engine/Build/BatchFiles/Build.bat  -projectfiles -project="C:/Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Initial.uproject" -game -rocket -progress
+[2024.04.11-18.52.23:545][566]Using bundled DotNet SDK version: 6.0.302
+[2024.04.11-18.52.23:545][566]Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -projectfiles -project="C:/Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Initial.uproject" -game -rocket -progress
+[2024.04.11-18.52.24:252][566]Log file: C:\Users\Frederik\AppData\Local\UnrealBuildTool\Log_GPF.txt
+[2024.04.11-18.52.25:666][566]
+[2024.04.11-18.52.25:666][566]Some Platforms were skipped due to invalid SDK setup: IOS, Android, Linux, LinuxArm64.
+[2024.04.11-18.52.25:666][566]See the log file for detailed information
+[2024.04.11-18.52.25:666][566]
+[2024.04.11-18.52.25:666][566]
+[2024.04.11-18.52.25:666][566]Generating VisualStudio project files:
+[2024.04.11-18.52.25:666][566]Discovering modules, targets and source code for project...
+[2024.04.11-18.52.32:226][566]Binding IntelliSense data...
+[2024.04.11-18.53.06:474][566]Binding IntelliSense data... 75%
+[2024.04.11-18.53.06:487][566]Binding IntelliSense data... 100%
+[2024.04.11-18.53.06:487][566]Creating common properties file...
+[2024.04.11-18.53.06:487][566]Creating common properties file... 0%
+[2024.04.11-18.53.06:487][566]Writing project files...
+[2024.04.11-18.53.12:318][566]Writing project files... 100%
+[2024.04.11-18.53.12:318][566]
+[2024.04.11-18.53.12:318][566]Generating QueryTargets data for editor...
+[2024.04.11-18.53.12:557][566]LogSlate: Window 'Add C++ Class' being destroyed
+[2024.04.11-18.53.12:577][566]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.04.11-18.53.50:505][678]LogLiveCoding: Display:    Creating library C:\Users\Frederik\Documents\GitHub\UnrealInitial\Initial\Binaries\Win64\UnrealEditor-Initial.patch_0.lib and object C:\Users\Frederik\Documents\GitHub\UnrealInitial\Initial\Binaries\Win64\UnrealEditor-Initial.patch_0.exp
+[2024.04.11-18.53.51:130][679]LogClass: UPackage /Script/Initial Reload.
+[2024.04.11-18.53.51:131][679]LogClass: UClass MyCharacter Reload.
+[2024.04.11-18.53.51:135][679]LogClass: Could not find existing class LightSwitch in package /Script/Initial for reload, assuming new or modified class
+[2024.04.11-18.53.51:135][679]LogClass: Could not find existing class MyCharacter in package /Script/Initial for reload, assuming new or modified class
+[2024.04.11-18.53.51:330][679]Re-instancing MyCharacter after reload.
+[2024.04.11-18.53.52:272][679]LogUObjectHash: Compacting FUObjectHashTables data took   4.83ms
+[2024.04.11-18.53.53:639][680]Display: Reload/Re-instancing Complete: 1 package changed, 1 class new, 1 class changed
+[2024.04.11-18.53.53:640][680]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2024.04.11-18.57.16:168][403]LogUObjectHash: Compacting FUObjectHashTables data took  42.05ms
+[2024.04.11-18.57.16:633][403]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Levels/House_Auto3
+[2024.04.11-18.57.16:637][403]LogSavePackage: Moving '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Saved/House_Auto33B38D4E14F9C32A854096A9AC24107C2.tmp' to '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Saved/Autosaves/Game/Levels/House_Auto3.umap'
+[2024.04.11-18.57.16:667][403]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Saved/Autosaves/Game/Levels/House_Auto3.umap is in the /Temp path, will not scan.
+[2024.04.11-18.57.16:682][403]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/House' took 2.758
+[2024.04.11-18.57.16:682][403]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 2.758
+[2024.04.11-18.57.16:686][403]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/AI/BB_Enemy] ([1] browsable assets)...
+[2024.04.11-18.57.16:686][403]OBJ SavePackage: Finished generating thumbnails for package [/Game/AI/BB_Enemy]
+[2024.04.11-18.57.16:687][403]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BB_Enemy" FILE="../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Saved/Autosaves/Game/AI/BB_Enemy_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2024.04.11-18.57.16:691][403]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/AI/BB_Enemy_Auto3
+[2024.04.11-18.57.16:692][403]LogSavePackage: Moving '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Saved/BB_Enemy_Auto32C5C5EDA481B5B762BD9898F28E50FD6.tmp' to '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Saved/Autosaves/Game/AI/BB_Enemy_Auto3.uasset'
+[2024.04.11-18.57.16:708][403]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPerson/Input/Actions/IA_Walk] ([1] browsable assets)...
+[2024.04.11-18.57.16:708][403]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Input/Actions/IA_Walk]
+[2024.04.11-18.57.16:712][403]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Input/Actions/IA_Walk_Auto3
+[2024.04.11-18.57.16:714][403]LogSavePackage: Moving '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Saved/IA_Walk_Auto3F11EC8094C43B0E4DF9684BCCB927441.tmp' to '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Saved/Autosaves/Game/ThirdPerson/Input/Actions/IA_Walk_Auto3.uasset'
+[2024.04.11-18.57.16:725][403]LogFileHelpers: Auto-saving content packages took 0.043
+[2024.04.11-19.07.17:731][967]LogUObjectHash: Compacting FUObjectHashTables data took  12.62ms
+[2024.04.11-19.07.17:781][967]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Levels/House_Auto4
+[2024.04.11-19.07.17:782][967]LogSavePackage: Moving '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Saved/House_Auto44479C43D4FA3BE53D158F9BDC50450DC.tmp' to '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Saved/Autosaves/Game/Levels/House_Auto4.umap'
+[2024.04.11-19.07.17:796][967]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Saved/Autosaves/Game/Levels/House_Auto4.umap is in the /Temp path, will not scan.
+[2024.04.11-19.07.17:797][967]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/House' took 0.697
+[2024.04.11-19.07.17:797][967]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.697
+[2024.04.11-19.12.15:013][609]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2024.04.11-19.12.15:050][609]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.11-19.12.15:148][609]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/House" FILE="../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/Levels/House.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.04.11-19.12.15:242][609]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2024.04.11-19.12.15:264][609]LogSavePackage: Moving output files for package: /Game/Levels/House
+[2024.04.11-19.12.15:266][609]LogSavePackage: Moving '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Saved/HouseDB2314C94FA161F97969279268E392DB.tmp' to '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/Levels/House.umap'
+[2024.04.11-19.12.15:336][609]LogFileHelpers: Saving map 'House' took 0.190
+[2024.04.11-19.12.15:338][609]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/AI/BB_Enemy" FILE="../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/AI/BB_Enemy.uasset" SILENT=true
+[2024.04.11-19.12.15:342][609]LogSavePackage: Moving output files for package: /Game/AI/BB_Enemy
+[2024.04.11-19.12.15:343][609]LogSavePackage: Moving '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Saved/BB_EnemyABC1B276484DF945D88288BCE6945F2D.tmp' to '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/AI/BB_Enemy.uasset'
+[2024.04.11-19.12.15:364][609]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Input/Actions/IA_Walk
+[2024.04.11-19.12.15:364][609]LogSavePackage: Moving '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Saved/IA_Walk543612B34FEB3E6D4EE8469E366AC967.tmp' to '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/ThirdPerson/Input/Actions/IA_Walk.uasset'
+[2024.04.11-19.12.15:532][609]LogFileHelpers: InternalPromptForCheckoutAndSave took 482 ms (total: 23.8 sec)
+[2024.04.11-19.12.15:553][609]AssetCheck: New page: Asset Save: multiple assets
+[2024.04.11-19.12.15:553][609]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/House.House
+[2024.04.11-19.12.15:554][609]LogContentValidation: Display: Validating /Script/AIModule.BlackboardData /Game/AI/BB_Enemy.BB_Enemy
+[2024.04.11-19.12.15:554][609]LogContentValidation: Display: Validating /Script/EnhancedInput.InputAction /Game/ThirdPerson/Input/Actions/IA_Walk.IA_Walk
+[2024.04.11-19.16.34:960][948]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.04.11-19.16.58:582][ 20]LogLiveCoding: Display:    Creating library C:\Users\Frederik\Documents\GitHub\UnrealInitial\Initial\Binaries\Win64\UnrealEditor-Initial.patch_1.lib and object C:\Users\Frederik\Documents\GitHub\UnrealInitial\Initial\Binaries\Win64\UnrealEditor-Initial.patch_1.exp
+[2024.04.11-19.16.59:107][ 22]LogClass: UPackage /Script/Initial Reload.
+[2024.04.11-19.16.59:108][ 22]LogClass: UClass LightSwitch Reload.
+[2024.04.11-19.16.59:115][ 22]LogClass: Could not find existing class LightSwitch in package /Script/Initial for reload, assuming new or modified class
+[2024.04.11-19.16.59:376][ 22]Re-instancing LightSwitch after reload.
+[2024.04.11-19.17.00:312][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2024.04.11-19.17.01:782][ 23]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2024.04.11-19.17.01:782][ 23]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2024.04.11-19.17.25:852][536]LogPackageName: SearchForPackageOnDisk took   0.000s, but failed to resolve /Game/Blueprints/MyLightSwitch.
+[2024.04.11-19.17.26:108][536]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/MyLightSwitch.MyLightSwitch
+[2024.04.11-19.17.26:130][536]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.11-19.17.26:143][536]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.11-19.17.26:853][536]LogSlate: Window 'Add Blueprint Class' being destroyed
+[2024.04.11-19.17.27:687][536]LogViewport: Scene viewport resized to 1141x691, mode Windowed.
+[2024.04.11-19.17.29:277][614]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.11-19.17.29:334][614]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/MyLightSwitch" FILE="../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/Blueprints/MyLightSwitch.uasset" SILENT=true
+[2024.04.11-19.17.29:356][614]LogWorldPartition: Can't find class descriptor '/Game/Blueprints/MyLightSwitch.MyLightSwitch_C' for saving '/Game/Blueprints/MyLightSwitch.MyLightSwitch_C'
+[2024.04.11-19.17.29:359][614]LogWorldPartition: Can't find class descriptor '/Game/Blueprints/MyLightSwitch.MyLightSwitch_C' for saving '/Game/Blueprints/MyLightSwitch.MyLightSwitch_C'
+[2024.04.11-19.17.29:360][614]LogSavePackage: Moving output files for package: /Game/Blueprints/MyLightSwitch
+[2024.04.11-19.17.29:360][614]LogSavePackage: Moving '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Saved/MyLightSwitchEBDD4B2F46B7144BA5B22090C855F00F.tmp' to '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/Blueprints/MyLightSwitch.uasset'
+[2024.04.11-19.17.29:370][614]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Blueprints/MyLightSwitch.
+[2024.04.11-19.17.29:389][614]LogFileHelpers: InternalPromptForCheckoutAndSave took 111 ms (total: 23.9 sec)
+[2024.04.11-19.17.29:390][614]AssetCheck: New page: Asset Save: MyLightSwitch
+[2024.04.11-19.17.29:390][614]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/MyLightSwitch.MyLightSwitch
+[2024.04.11-19.17.32:873][826]LogWorld: UWorld::CleanupWorld for World_81, bSessionEnded=true, bCleanupResources=true
+[2024.04.11-19.17.32:886][826]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.11-19.17.37:024][152]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/MyLightSwitch.MyLightSwitch
+[2024.04.11-19.17.37:025][152]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.11-19.17.37:025][152]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.11-19.20.07:189][423]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.04.11-19.20.39:150][384]Display: Reload/Re-instancing Complete: No object changes detected
+[2024.04.11-19.20.39:151][384]LogLiveCoding: Error: Live coding failed, please see Live console for more information
+[2024.04.11-19.24.36:110][398]LogDerivedDataCache: C:/Users/Frederik/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.442 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1247 files in 2075 folders with total size 86 MiB.
+[2024.04.11-19.25.24:274][750]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.04.11-19.25.56:902][883]LogLiveCoding: Display:    Creating library C:\Users\Frederik\Documents\GitHub\UnrealInitial\Initial\Binaries\Win64\UnrealEditor-Initial.patch_2.lib and object C:\Users\Frederik\Documents\GitHub\UnrealInitial\Initial\Binaries\Win64\UnrealEditor-Initial.patch_2.exp
+[2024.04.11-19.25.57:671][885]LogClass: UPackage /Script/Initial Reload.
+[2024.04.11-19.25.57:672][885]LogClass: UClass LightSwitch Reload.
+[2024.04.11-19.25.57:673][885]LogClass: Could not find existing class LightSwitch in package /Script/Initial for reload, assuming new or modified class
+[2024.04.11-19.25.57:736][885]Re-instancing LightSwitch after reload.
+[2024.04.11-19.25.58:132][885]LogActor: Warning: MyLightSwitch_C /Engine/Transient.World_82:PersistentLevel.MyLightSwitch_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.04.11-19.25.59:215][885]LogUObjectHash: Compacting FUObjectHashTables data took   3.97ms
+[2024.04.11-19.25.59:915][886]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2024.04.11-19.25.59:916][886]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2024.04.11-19.26.15:632][721]LogWorld: UWorld::CleanupWorld for World_82, bSessionEnded=true, bCleanupResources=true
+[2024.04.11-19.26.15:633][721]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.11-19.26.17:762][873]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/MyLightSwitch.MyLightSwitch
+[2024.04.11-19.26.17:764][873]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.11-19.26.17:765][873]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.11-19.26.18:317][873]LogActor: Warning: MyLightSwitch_C /Engine/Transient.World_83:PersistentLevel.MyLightSwitch_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.04.11-19.26.22:556][141]LogWorld: UWorld::CleanupWorld for World_83, bSessionEnded=true, bCleanupResources=true
+[2024.04.11-19.26.22:556][141]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.11-19.26.30:438][797]LogContentBrowser: Attempting asset rename: MyLightSwitch -> BP_MyLightSwitch
+[2024.04.11-19.26.30:653][797]LogMetaData: Removing '/Game/Blueprints/BP_MyLightSwitch.BP_MyLightSwitch:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/MyLightSwitch.PackageMetaData'
+[2024.04.11-19.26.30:655][797]LogMetaData: Removing '/Game/Blueprints/BP_MyLightSwitch.SKEL_BP_MyLightSwitch_C' ref from Metadata '/Game/Blueprints/MyLightSwitch.PackageMetaData'
+[2024.04.11-19.26.30:655][797]LogMetaData: Removing '/Game/Blueprints/BP_MyLightSwitch.BP_MyLightSwitch_C' ref from Metadata '/Game/Blueprints/MyLightSwitch.PackageMetaData'
+[2024.04.11-19.26.30:655][797]LogMetaData: Removing '/Game/Blueprints/BP_MyLightSwitch.BP_MyLightSwitch:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/MyLightSwitch.PackageMetaData'
+[2024.04.11-19.26.30:655][797]LogMetaData: Removing '/Game/Blueprints/BP_MyLightSwitch.BP_MyLightSwitch:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/MyLightSwitch.PackageMetaData'
+[2024.04.11-19.26.30:655][797]LogMetaData: Removing '/Game/Blueprints/BP_MyLightSwitch.BP_MyLightSwitch:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/MyLightSwitch.PackageMetaData'
+[2024.04.11-19.26.30:655][797]LogMetaData: Removing '/Game/Blueprints/BP_MyLightSwitch.SKEL_BP_MyLightSwitch_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprints/MyLightSwitch.PackageMetaData'
+[2024.04.11-19.26.30:655][797]LogMetaData: Removing '/Game/Blueprints/BP_MyLightSwitch.SKEL_BP_MyLightSwitch_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Blueprints/MyLightSwitch.PackageMetaData'
+[2024.04.11-19.26.30:655][797]LogMetaData: Removing '/Game/Blueprints/BP_MyLightSwitch.SKEL_BP_MyLightSwitch_C:ReceiveTick' ref from Metadata '/Game/Blueprints/MyLightSwitch.PackageMetaData'
+[2024.04.11-19.26.30:655][797]LogMetaData: Removing '/Game/Blueprints/BP_MyLightSwitch.SKEL_BP_MyLightSwitch_C:UserConstructionScript' ref from Metadata '/Game/Blueprints/MyLightSwitch.PackageMetaData'
+[2024.04.11-19.26.30:694][797]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.11-19.26.30:784][797]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_MyLightSwitch" FILE="../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/Blueprints/BP_MyLightSwitch.uasset" SILENT=true
+[2024.04.11-19.26.30:792][797]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_MyLightSwitch
+[2024.04.11-19.26.30:792][797]LogSavePackage: Moving '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Saved/BP_MyLightSwitchE7F1087F4BA65FB112A6408BD25B1FC9.tmp' to '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/Blueprints/BP_MyLightSwitch.uasset'
+[2024.04.11-19.26.30:809][797]LogPackageName: SearchForPackageOnDisk took   0.000s to resolve /Game/Blueprints/BP_MyLightSwitch.
+[2024.04.11-19.26.30:842][797]LogFileHelpers: InternalPromptForCheckoutAndSave took 148 ms (total: 24.1 sec)
+[2024.04.11-19.26.31:275][797]LogUObjectHash: Compacting FUObjectHashTables data took  11.43ms
+[2024.04.11-19.26.31:368][797]LogUObjectHash: Compacting FUObjectHashTables data took   6.89ms
+[2024.04.11-19.26.31:393][797]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.04.11-19.26.31:401][797]AssetCheck: New page: Asset Save: BP_MyLightSwitch
+[2024.04.11-19.26.31:401][797]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_MyLightSwitch.BP_MyLightSwitch
+[2024.04.11-19.26.32:399][877]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_MyLightSwitch.BP_MyLightSwitch
+[2024.04.11-19.26.32:399][877]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.11-19.26.32:399][877]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.11-19.26.32:913][877]LogActor: Warning: BP_MyLightSwitch_C /Engine/Transient.World_84:PersistentLevel.BP_MyLightSwitch_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.04.11-19.26.37:442][144]LogWorld: UWorld::CleanupWorld for World_84, bSessionEnded=true, bCleanupResources=true
+[2024.04.11-19.26.37:443][144]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.11-19.26.37:524][144]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_MyLightSwitch.BP_MyLightSwitch
+[2024.04.11-19.26.37:524][144]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.11-19.26.37:524][144]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.11-19.26.38:151][144]LogActor: Warning: BP_MyLightSwitch_C /Engine/Transient.World_85:PersistentLevel.BP_MyLightSwitch_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.04.11-19.26.42:097][359]LogViewport: Scene viewport resized to 1141x691, mode Windowed.
+[2024.04.11-19.27.13:879][756]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.11-19.27.13:937][756]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_MyLightSwitch" FILE="../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/Blueprints/BP_MyLightSwitch.uasset" SILENT=true
+[2024.04.11-19.27.13:942][756]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_MyLightSwitch
+[2024.04.11-19.27.13:943][756]LogSavePackage: Moving '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Saved/BP_MyLightSwitch28C56F924B59F836FD7F8FADCE6661B7.tmp' to '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/Blueprints/BP_MyLightSwitch.uasset'
+[2024.04.11-19.27.13:979][756]LogFileHelpers: InternalPromptForCheckoutAndSave took 100 ms (total: 24.2 sec)
+[2024.04.11-19.27.13:984][756]AssetCheck: New page: Asset Save: BP_MyLightSwitch
+[2024.04.11-19.27.13:990][756]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_MyLightSwitch.BP_MyLightSwitch
+[2024.04.11-19.27.16:274][887]BlueprintLog: New page: Compile BP_MyLightSwitch
+[2024.04.11-19.27.16:383][887]LogActor: Warning: BP_MyLightSwitch_C /Engine/Transient.World_85:PersistentLevel.BP_MyLightSwitch_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.04.11-19.27.16:441][887]LogUObjectHash: Compacting FUObjectHashTables data took   4.21ms
+[2024.04.11-19.27.43:902][176]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_MyLightSwitch.BP_MyLightSwitch_C
+[2024.04.11-19.27.43:902][176]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_MyLightSwitch.BP_MyLightSwitch_C
+[2024.04.11-19.27.43:903][176]LogActor: Warning: BP_MyLightSwitch_C /Game/Levels/House.House:PersistentLevel.BP_MyLightSwitch_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.04.11-19.27.43:915][176]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_MyLightSwitch.BP_MyLightSwitch as actor: BP_MyLightSwitch_C /Game/Levels/House.House:PersistentLevel.BP_MyLightSwitch_C_0
+[2024.04.11-19.27.43:919][176]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_MyLightSwitch.BP_MyLightSwitch as actor: BP_MyLightSwitch_C /Game/Levels/House.House:PersistentLevel.BP_MyLightSwitch_C_0
+[2024.04.11-19.27.45:283][264]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_MyLightSwitch.BP_MyLightSwitch_C
+[2024.04.11-19.27.45:283][264]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_MyLightSwitch.BP_MyLightSwitch_C
+[2024.04.11-19.27.45:290][264]LogActor: Warning: BP_MyLightSwitch_C /Game/Levels/House.House:PersistentLevel.BP_MyLightSwitch_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.04.11-19.27.45:301][264]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_MyLightSwitch.BP_MyLightSwitch as actor: BP_MyLightSwitch_C /Game/Levels/House.House:PersistentLevel.BP_MyLightSwitch_C_1
+[2024.04.11-19.27.45:301][264]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_MyLightSwitch.BP_MyLightSwitch as actor: BP_MyLightSwitch_C /Game/Levels/House.House:PersistentLevel.BP_MyLightSwitch_C_1
+[2024.04.11-19.28.16:369][934]LogUObjectHash: Compacting FUObjectHashTables data took   3.09ms
+[2024.04.11-19.28.16:453][934]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Levels/House_Auto5
+[2024.04.11-19.28.16:453][934]LogSavePackage: Moving '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Saved/House_Auto5D9C3D71A4B9FDA1C524ADFBC36B19524.tmp' to '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Saved/Autosaves/Game/Levels/House_Auto5.umap'
+[2024.04.11-19.28.16:474][934]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Saved/Autosaves/Game/Levels/House_Auto5.umap is in the /Temp path, will not scan.
+[2024.04.11-19.28.16:474][934]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalActors__/Autosaves/Game/Levels/House_Auto5 is in the /Temp path, will not scan.
+[2024.04.11-19.28.16:474][934]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalObjects__/Autosaves/Game/Levels/House_Auto5 is in the /Temp path, will not scan.
+[2024.04.11-19.28.16:481][934]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/House' took 0.133
+[2024.04.11-19.28.16:481][934]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.133
+[2024.04.11-19.28.51:906][577]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_ForeignCharacter.BP_ForeignCharacter
+[2024.04.11-19.28.51:910][577]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.11-19.28.51:910][577]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.11-19.29.03:683][187]LogViewport: Scene viewport resized to 1141x691, mode Windowed.
+[2024.04.11-19.29.43:553][297]LogWorld: UWorld::CleanupWorld for World_86, bSessionEnded=true, bCleanupResources=true
+[2024.04.11-19.29.43:553][297]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.11-19.30.54:450][565]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.11-19.30.54:494][565]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_MyLightSwitch" FILE="../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/Blueprints/BP_MyLightSwitch.uasset" SILENT=true
+[2024.04.11-19.30.54:497][565]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_MyLightSwitch
+[2024.04.11-19.30.54:499][565]LogSavePackage: Moving '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Saved/BP_MyLightSwitchE6FAF7E34770F327232B33A7FBF9DAC9.tmp' to '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/Blueprints/BP_MyLightSwitch.uasset'
+[2024.04.11-19.30.54:516][565]LogFileHelpers: InternalPromptForCheckoutAndSave took 65 ms (total: 24.2 sec)
+[2024.04.11-19.30.54:521][565]AssetCheck: New page: Asset Save: BP_MyLightSwitch
+[2024.04.11-19.30.54:521][565]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_MyLightSwitch.BP_MyLightSwitch
+[2024.04.11-19.30.55:057][598]BlueprintLog: New page: Compile BP_MyLightSwitch
+[2024.04.11-19.30.55:090][598]LogActor: Warning: BP_MyLightSwitch_C /Engine/Transient.World_85:PersistentLevel.BP_MyLightSwitch_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.04.11-19.30.55:091][598]LogActor: Warning: BP_MyLightSwitch_C /Game/Levels/House.House:PersistentLevel.BP_MyLightSwitch_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.04.11-19.30.55:203][598]LogUObjectHash: Compacting FUObjectHashTables data took   1.63ms
+[2024.04.11-19.38.18:432][964]LogUObjectHash: Compacting FUObjectHashTables data took  36.51ms
+[2024.04.11-19.38.18:826][964]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Levels/House_Auto6
+[2024.04.11-19.38.18:827][964]LogSavePackage: Moving '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Saved/House_Auto6A230DCF444B6DB7787216D848EEC3FA1.tmp' to '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Saved/Autosaves/Game/Levels/House_Auto6.umap'
+[2024.04.11-19.38.18:870][964]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Saved/Autosaves/Game/Levels/House_Auto6.umap is in the /Temp path, will not scan.
+[2024.04.11-19.38.18:873][964]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalActors__/Autosaves/Game/Levels/House_Auto6 is in the /Temp path, will not scan.
+[2024.04.11-19.38.18:875][964]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalObjects__/Autosaves/Game/Levels/House_Auto6 is in the /Temp path, will not scan.
+[2024.04.11-19.38.18:890][964]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/House' took 1.933
+[2024.04.11-19.38.18:890][964]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 1.933
+[2024.04.11-19.46.14:207][391]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.04.11-19.47.01:956][317]LogLiveCoding: Display:    Creating library C:\Users\Frederik\Documents\GitHub\UnrealInitial\Initial\Binaries\Win64\UnrealEditor-Initial.patch_3.lib and object C:\Users\Frederik\Documents\GitHub\UnrealInitial\Initial\Binaries\Win64\UnrealEditor-Initial.patch_3.exp
+[2024.04.11-19.47.02:773][319]LogClass: UPackage /Script/Initial Reload.
+[2024.04.11-19.47.02:774][319]LogClass: UClass LightSwitch Reload.
+[2024.04.11-19.47.02:788][319]LogClass: Could not find existing class LightSwitch in package /Script/Initial for reload, assuming new or modified class
+[2024.04.11-19.47.02:790][319]LogClass: Function OnOverlapBegin is new or belongs to a modified class.
+[2024.04.11-19.47.02:791][319]LogClass: Function OnOverlapEnd is new or belongs to a modified class.
+[2024.04.11-19.47.03:212][319]Re-instancing LightSwitch after reload.
+[2024.04.11-19.47.04:043][319]LogActor: Warning: BP_MyLightSwitch_C /Engine/Transient.World_85:PersistentLevel.BP_MyLightSwitch_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.04.11-19.47.04:096][319]LogActor: Warning: BP_MyLightSwitch_C /Game/Levels/House.House:PersistentLevel.BP_MyLightSwitch_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.04.11-19.47.05:502][319]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2024.04.11-19.47.07:638][320]Display: Reload/Re-instancing Complete: 1 package changed, 1 class changed
+[2024.04.11-19.47.07:638][320]LogLiveCoding: Warning: Live coding succeeded, data type changes may cause packaging to fail if assets reference the new or updated data types
+[2024.04.11-19.47.19:581][306]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.11-19.47.19:647][306]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.11-19.47.19:661][306]PIE: New page: PIE session: House (11. apr. 2024 23.47.19)
+[2024.04.11-19.47.19:718][306]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_House
+[2024.04.11-19.47.19:839][306]LogPlayLevel: PIE: StaticDuplicateObject took: (0.120036s)
+[2024.04.11-19.47.19:839][306]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/House.House to /Game/Levels/UEDPIE_0_House.House (0.120652s)
+[2024.04.11-19.47.20:233][306]LogUObjectHash: Compacting FUObjectHashTables data took   5.92ms
+[2024.04.11-19.47.20:281][306]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.11-19.47.20:301][306]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.11-19.47.20:319][306]LogAIModule: Creating AISystem for world House
+[2024.04.11-19.47.20:336][306]LogPlayLevel: PIE: World Init took: (0.060701s)
+[2024.04.11-19.47.20:339][306]LogAudio: Display: Creating Audio Device:                 Id: 79, Scope: Unique, Realtime: True
+[2024.04.11-19.47.20:341][306]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.11-19.47.20:341][306]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.11-19.47.20:341][306]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.11-19.47.20:341][306]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.11-19.47.20:341][306]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.11-19.47.20:341][306]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.11-19.47.20:342][306]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.11-19.47.20:342][306]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.11-19.47.20:354][306]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.11-19.47.20:354][306]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.11-19.47.20:354][306]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.11-19.47.20:374][306]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.11-19.47.20:442][306]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Logitech G35 Headset)
+[2024.04.11-19.47.20:462][306]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.11-19.47.20:462][306]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.11-19.47.20:463][306]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.11-19.47.20:468][306]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=79
+[2024.04.11-19.47.20:468][306]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=79
+[2024.04.11-19.47.20:475][306]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=79
+[2024.04.11-19.47.20:476][306]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=79
+[2024.04.11-19.47.20:476][306]LogInit: FAudioDevice initialized with ID 79.
+[2024.04.11-19.47.20:476][306]LogAudio: Display: Audio Device (ID: 79) registered with world 'House'.
+[2024.04.11-19.47.20:477][306]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 79
+[2024.04.11-19.47.20:530][306]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.04.11-19.47.20:608][306]LogWorld: Bringing World /Game/Levels/UEDPIE_0_House.House up for play (max tick rate 0) at 2024.04.11-21.47.20
+[2024.04.11-19.47.20:630][306]LogWorld: Bringing up level for play took: 0.097338
+[2024.04.11-19.47.20:648][306]LogOnline: OSS: Created online subsystem instance for: :Context_165
+[2024.04.11-19.47.20:715][306]PIE: Server logged in
+[2024.04.11-19.47.20:716][306]PIE: Play in editor total start time 1,106 seconds.
+[2024.04.11-19.47.21:674][372]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.21:683][373]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.21:692][374]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.21:701][375]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.21:710][376]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.21:720][377]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.21:730][378]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.21:741][379]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.21:751][380]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.21:761][381]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.21:771][382]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.21:782][383]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.21:791][384]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.21:802][385]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.21:811][386]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.21:821][387]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.21:832][388]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.21:846][389]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.21:855][390]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.21:865][391]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.21:874][392]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.21:884][393]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.21:894][394]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.21:908][395]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.21:918][396]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.21:929][397]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.21:945][398]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.21:956][399]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.21:968][400]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.21:979][401]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.21:992][402]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.22:004][403]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.22:016][404]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.22:033][405]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.22:049][406]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.22:062][407]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.22:073][408]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.22:085][409]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.22:096][410]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.22:108][411]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.22:119][412]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.22:133][413]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.22:149][414]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.22:161][415]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.22:174][416]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.22:186][417]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.22:196][418]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.22:208][419]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.22:218][420]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.22:231][421]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.22:243][422]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.22:253][423]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.22:264][424]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.22:277][425]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.22:288][426]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.22:299][427]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.22:310][428]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.23:061][501]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.23:071][502]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.23:081][503]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.23:091][504]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.23:100][505]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.23:110][506]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.23:120][507]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.23:129][508]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.23:139][509]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.23:148][510]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.23:159][511]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.23:168][512]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.24:608][623]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.24:620][624]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.24:631][625]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.24:642][626]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.24:653][627]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.24:667][628]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.24:680][629]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.26:104][747]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.11-19.47.26:104][747]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_House
+[2024.04.11-19.47.26:111][747]LogWorld: UWorld::CleanupWorld for House, bSessionEnded=true, bCleanupResources=true
+[2024.04.11-19.47.26:114][747]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.11-19.47.26:189][747]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.11-19.47.26:197][747]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.11-19.47.26:228][747]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.11-19.47.26:233][747]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 79
+[2024.04.11-19.47.26:234][747]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=79
+[2024.04.11-19.47.26:246][747]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=79
+[2024.04.11-19.47.26:451][747]LogUObjectHash: Compacting FUObjectHashTables data took  32.89ms
+[2024.04.11-19.47.26:670][748]LogPlayLevel: Display: Destroying online subsystem :Context_165
+[2024.04.11-19.47.29:907][985]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.11-19.47.29:915][985]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.11-19.47.29:916][985]PIE: New page: PIE session: House (11. apr. 2024 23.47.29)
+[2024.04.11-19.47.29:962][985]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_House
+[2024.04.11-19.47.29:966][985]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003922s)
+[2024.04.11-19.47.29:966][985]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/House.House to /Game/Levels/UEDPIE_0_House.House (0.003967s)
+[2024.04.11-19.47.30:010][985]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.04.11-19.47.30:017][985]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.11-19.47.30:017][985]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.11-19.47.30:029][985]LogAIModule: Creating AISystem for world House
+[2024.04.11-19.47.30:030][985]LogPlayLevel: PIE: World Init took: (0.013218s)
+[2024.04.11-19.47.30:030][985]LogAudio: Display: Creating Audio Device:                 Id: 80, Scope: Unique, Realtime: True
+[2024.04.11-19.47.30:030][985]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.11-19.47.30:030][985]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.11-19.47.30:030][985]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.11-19.47.30:030][985]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.11-19.47.30:030][985]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.11-19.47.30:030][985]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.11-19.47.30:030][985]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.11-19.47.30:030][985]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.11-19.47.30:038][985]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.11-19.47.30:041][985]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.11-19.47.30:041][985]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.11-19.47.30:050][985]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.11-19.47.30:103][985]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Logitech G35 Headset)
+[2024.04.11-19.47.30:110][985]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.11-19.47.30:110][985]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.11-19.47.30:110][985]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.11-19.47.30:112][985]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=80
+[2024.04.11-19.47.30:112][985]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=80
+[2024.04.11-19.47.30:124][985]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=80
+[2024.04.11-19.47.30:124][985]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=80
+[2024.04.11-19.47.30:124][985]LogInit: FAudioDevice initialized with ID 80.
+[2024.04.11-19.47.30:124][985]LogAudio: Display: Audio Device (ID: 80) registered with world 'House'.
+[2024.04.11-19.47.30:124][985]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 80
+[2024.04.11-19.47.30:126][985]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.04.11-19.47.30:142][985]LogWorld: Bringing World /Game/Levels/UEDPIE_0_House.House up for play (max tick rate 0) at 2024.04.11-21.47.30
+[2024.04.11-19.47.30:143][985]LogWorld: Bringing up level for play took: 0.016113
+[2024.04.11-19.47.30:156][985]LogOnline: OSS: Created online subsystem instance for: :Context_166
+[2024.04.11-19.47.30:166][985]PIE: Server logged in
+[2024.04.11-19.47.30:167][985]PIE: Play in editor total start time 0,252 seconds.
+[2024.04.11-19.47.30:478][992]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.32:691][186]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.32:699][187]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.32:709][188]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.32:719][189]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.32:728][190]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.32:736][191]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.32:746][192]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.32:755][193]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.32:765][194]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.32:776][195]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.32:786][196]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.32:795][197]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.32:804][198]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.32:814][199]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.32:825][200]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.32:835][201]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.32:845][202]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.32:855][203]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.32:865][204]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.32:876][205]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.32:886][206]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.32:897][207]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.32:908][208]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.32:919][209]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.32:930][210]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.32:940][211]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.32:951][212]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.32:961][213]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.32:972][214]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.32:982][215]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.32:994][216]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:004][217]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:014][218]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:024][219]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:034][220]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:045][221]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:054][222]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:063][223]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:073][224]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:084][225]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:094][226]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:104][227]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:114][228]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:124][229]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:133][230]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:142][231]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:151][232]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:162][233]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:171][234]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:181][235]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:190][236]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:199][237]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:209][238]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:218][239]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:228][240]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:239][241]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:251][242]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:261][243]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:274][244]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:285][245]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:297][246]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:307][247]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:318][248]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:329][249]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:338][250]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:348][251]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:358][252]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:368][253]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:378][254]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:390][255]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:399][256]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:410][257]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:420][258]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:431][259]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:441][260]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:451][261]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:461][262]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:471][263]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:481][264]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:494][265]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:504][266]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:514][267]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:524][268]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:535][269]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:546][270]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:556][271]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:567][272]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:577][273]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:588][274]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:599][275]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:608][276]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:618][277]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:627][278]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:636][279]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:646][280]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:657][281]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:666][282]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:677][283]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:687][284]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:698][285]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:709][286]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:720][287]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:732][288]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:742][289]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:752][290]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:765][291]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:776][292]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:787][293]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:797][294]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:808][295]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:820][296]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:831][297]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:842][298]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:852][299]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:864][300]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:876][301]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:887][302]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:899][303]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:910][304]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:922][305]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:932][306]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:943][307]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:953][308]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:964][309]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:975][310]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:985][311]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.33:997][312]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:008][313]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:018][314]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:029][315]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:040][316]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:050][317]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:060][318]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:071][319]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:082][320]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:093][321]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:105][322]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:116][323]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:127][324]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:138][325]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:148][326]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:159][327]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:169][328]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:181][329]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:192][330]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:203][331]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:213][332]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:223][333]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:233][334]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:243][335]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:253][336]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:264][337]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:275][338]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:285][339]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:295][340]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:306][341]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:316][342]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:326][343]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:336][344]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:347][345]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:357][346]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:367][347]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:377][348]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:387][349]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:397][350]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:407][351]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:419][352]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:429][353]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:440][354]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:451][355]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:460][356]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:470][357]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:480][358]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:490][359]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:500][360]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:511][361]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:523][362]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:533][363]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:543][364]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:552][365]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:562][366]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:572][367]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:582][368]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.34:592][369]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.39:366][850]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.39:377][851]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.39:387][852]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.39:399][853]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.39:408][854]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.39:417][855]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.39:426][856]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.39:437][857]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.39:446][858]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.39:457][859]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.39:466][860]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.39:475][861]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.39:484][862]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.39:493][863]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.39:503][864]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.39:512][865]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.39:522][866]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.39:532][867]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.39:543][868]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.39:553][869]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.39:564][870]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.39:574][871]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.39:584][872]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.39:594][873]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.39:603][874]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.39:613][875]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.39:625][876]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.39:637][877]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.39:649][878]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.39:660][879]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.39:670][880]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.39:682][881]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.39:757][889]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.39:767][890]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.39:777][891]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.39:787][892]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.39:796][893]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.39:806][894]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.39:816][895]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.39:826][896]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.39:836][897]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.39:845][898]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.39:855][899]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.39:864][900]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.39:875][901]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.39:885][902]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.39:895][903]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.39:905][904]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.39:915][905]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.39:926][906]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.39:938][907]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.39:950][908]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.39:962][909]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.39:974][910]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.39:985][911]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.39:997][912]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.40:009][913]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.40:022][914]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.40:032][915]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.40:043][916]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.40:055][917]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.40:066][918]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.40:078][919]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.40:089][920]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.40:099][921]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.40:109][922]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.40:119][923]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.40:128][924]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.40:137][925]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.40:147][926]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.40:156][927]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.40:166][928]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.40:176][929]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.40:185][930]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.40:195][931]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.40:205][932]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.40:214][933]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.40:223][934]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.40:233][935]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.40:243][936]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.40:253][937]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.40:263][938]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.40:273][939]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.40:283][940]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.40:292][941]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.40:301][942]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.40:311][943]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.40:320][944]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.40:329][945]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.40:339][946]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.40:350][947]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.40:360][948]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.40:371][949]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.40:380][950]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.40:390][951]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.40:400][952]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.40:411][953]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.40:423][954]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.40:433][955]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.44:118][325]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.44:127][326]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.44:137][327]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.44:146][328]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.44:155][329]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.44:164][330]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.44:173][331]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.44:184][332]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.44:193][333]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.44:204][334]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.44:215][335]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.44:226][336]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.44:237][337]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.44:248][338]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.44:258][339]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.44:268][340]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.44:853][400]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.44:862][401]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.44:871][402]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.44:880][403]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.44:890][404]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.44:899][405]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.44:910][406]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.44:920][407]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.44:929][408]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.44:939][409]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.44:948][410]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.44:958][411]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.44:968][412]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.44:977][413]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.44:987][414]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.44:997][415]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.45:006][416]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.45:016][417]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.45:025][418]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.45:034][419]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.45:044][420]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.45:053][421]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.45:062][422]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.45:072][423]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.45:081][424]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.45:090][425]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.45:105][426]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.45:114][427]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.45:124][428]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.45:135][429]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.45:146][430]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.45:156][431]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.45:166][432]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.45:175][433]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.45:185][434]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.45:196][435]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.45:207][436]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.48:487][770]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.48:496][771]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.48:505][772]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.48:514][773]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.48:524][774]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.48:534][775]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.48:544][776]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.48:553][777]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.48:562][778]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.48:571][779]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.48:581][780]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.48:589][781]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.48:599][782]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.48:607][783]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.48:617][784]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.48:632][785]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.48:642][786]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.48:651][787]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.48:661][788]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.48:671][789]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.48:680][790]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.48:690][791]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.48:701][792]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.48:711][793]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.48:720][794]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.48:961][819]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.48:971][820]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.48:980][821]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.48:992][822]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:002][823]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:012][824]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:023][825]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:033][826]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:043][827]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:053][828]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:065][829]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:075][830]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:085][831]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:095][832]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:106][833]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:116][834]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:125][835]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:135][836]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:144][837]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:153][838]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:162][839]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:173][840]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:182][841]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:193][842]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:203][843]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:213][844]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:222][845]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:231][846]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:242][847]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:254][848]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:269][849]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:285][850]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:300][851]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:314][852]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:329][853]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:342][854]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:352][855]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:363][856]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:374][857]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:383][858]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:392][859]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:401][860]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:411][861]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:420][862]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:430][863]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:440][864]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:449][865]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:459][866]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:468][867]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:477][868]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:486][869]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:496][870]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:505][871]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:514][872]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:523][873]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:533][874]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:542][875]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:551][876]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:560][877]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:570][878]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:580][879]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:590][880]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:600][881]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:609][882]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:619][883]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:629][884]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:641][885]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:650][886]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:664][887]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:673][888]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:683][889]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:693][890]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:704][891]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:715][892]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:725][893]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:735][894]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:745][895]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:756][896]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:765][897]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:775][898]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:789][899]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:799][900]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:809][901]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:819][902]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:830][903]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:839][904]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:849][905]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:859][906]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:871][907]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:883][908]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:893][909]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:904][910]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:919][911]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:929][912]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:938][913]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:948][914]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:977][915]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:989][916]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.49:999][917]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.50:013][918]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.50:024][919]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.50:036][920]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.50:047][921]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.50:057][922]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.50:067][923]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.50:078][924]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.50:088][925]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.50:098][926]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.50:109][927]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.50:118][928]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.50:128][929]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.50:137][930]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.50:147][931]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.50:157][932]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.50:165][933]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.50:174][934]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.50:183][935]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.50:192][936]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.50:201][937]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.50:209][938]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.50:220][939]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.50:230][940]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.50:241][941]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.50:253][942]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.47.50:262][943]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.11-19.48.09:873][945]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.11-19.48.09:873][945]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_House
+[2024.04.11-19.48.09:874][945]LogWorld: UWorld::CleanupWorld for House, bSessionEnded=true, bCleanupResources=true
+[2024.04.11-19.48.09:874][945]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.11-19.48.09:903][945]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.11-19.48.09:910][945]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.11-19.48.09:933][945]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.11-19.48.09:934][945]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 80
+[2024.04.11-19.48.09:934][945]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=80
+[2024.04.11-19.48.09:944][945]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=80
+[2024.04.11-19.48.09:975][945]LogUObjectHash: Compacting FUObjectHashTables data took   8.97ms
+[2024.04.11-19.48.10:286][946]LogPlayLevel: Display: Destroying online subsystem :Context_166
+[2024.04.11-19.48.12:666][162]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.11-19.48.12:780][162]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/House" FILE="../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/Levels/House.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.04.11-19.48.12:838][162]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2024.04.11-19.48.12:859][162]LogSavePackage: Moving output files for package: /Game/Levels/House
+[2024.04.11-19.48.12:861][162]LogSavePackage: Moving '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Saved/House9B2162104E74FE52ED0C568990F706E3.tmp' to '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/Levels/House.umap'
+[2024.04.11-19.48.12:984][162]LogFileHelpers: Saving map 'House' took 0.205
+[2024.04.11-19.48.13:016][162]LogFileHelpers: InternalPromptForCheckoutAndSave took 350 ms (total: 24.6 sec)
+[2024.04.11-19.48.13:021][162]AssetCheck: New page: Asset Save: House
+[2024.04.11-19.48.13:021][162]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/House.House
+[2024.04.11-20.24.36:966][146]LogDerivedDataCache: C:/Users/Frederik/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:02.296 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1247 files in 2075 folders with total size 86 MiB.
+[2024.04.11-20.36.54:902][561]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.11-20.36.54:914][561]LogActor: Warning: BP_MyLightSwitch_C /Engine/Transient.World_87:PersistentLevel.BP_MyLightSwitch_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.04.11-20.37.16:220][810]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.11-20.37.16:270][810]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_MyLightSwitch" FILE="../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/Blueprints/BP_MyLightSwitch.uasset" SILENT=true
+[2024.04.11-20.37.16:292][810]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_MyLightSwitch
+[2024.04.11-20.37.16:293][810]LogSavePackage: Moving '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Saved/BP_MyLightSwitch817C68DF41FD363EB23C8EADF540C97A.tmp' to '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/Blueprints/BP_MyLightSwitch.uasset'
+[2024.04.11-20.37.16:310][810]LogFileHelpers: InternalPromptForCheckoutAndSave took 90 ms (total: 24.7 sec)
+[2024.04.11-20.37.16:314][810]AssetCheck: New page: Asset Save: BP_MyLightSwitch
+[2024.04.11-20.37.16:314][810]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_MyLightSwitch.BP_MyLightSwitch
+[2024.04.11-20.37.19:873][  6]LogViewport: Scene viewport resized to 476x411, mode Windowed.
+[2024.04.11-20.37.21:506][ 77]BlueprintLog: New page: Compile BP_MyLightSwitch
+[2024.04.11-20.37.21:542][ 77]LogActor: Warning: BP_MyLightSwitch_C /Engine/Transient.World_85:PersistentLevel.BP_MyLightSwitch_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.04.11-20.37.21:543][ 77]LogActor: Warning: BP_MyLightSwitch_C /Game/Levels/House.House:PersistentLevel.BP_MyLightSwitch_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.04.11-20.37.21:629][ 77]LogActor: Warning: BP_MyLightSwitch_C /Engine/Transient.World_87:PersistentLevel.BP_MyLightSwitch_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.04.11-20.37.21:705][ 77]LogUObjectHash: Compacting FUObjectHashTables data took   4.01ms
+[2024.04.11-20.37.21:715][ 77]LogActor: Warning: BP_MyLightSwitch_C /Engine/Transient.World_87:PersistentLevel.BP_MyLightSwitch_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.04.11-20.37.29:519][705]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.11-20.37.29:569][705]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/House" FILE="../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/Levels/House.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.04.11-20.37.29:621][705]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2024.04.11-20.37.29:640][705]LogSavePackage: Moving output files for package: /Game/Levels/House
+[2024.04.11-20.37.29:641][705]LogSavePackage: Moving '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Saved/HouseEF72CC9D43A1EF6F2E9582BEBD877891.tmp' to '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/Levels/House.umap'
+[2024.04.11-20.37.29:650][705]LogFileHelpers: Saving map 'House' took 0.082
+[2024.04.11-20.37.29:665][705]LogFileHelpers: InternalPromptForCheckoutAndSave took 145 ms (total: 24.8 sec)
+[2024.04.11-20.37.29:667][705]AssetCheck: New page: Asset Save: House
+[2024.04.11-20.37.29:667][705]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/House.House
+[2024.04.11-20.37.45:480][721]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.11-20.37.45:521][721]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_MyLightSwitch" FILE="../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/Blueprints/BP_MyLightSwitch.uasset" SILENT=true
+[2024.04.11-20.37.45:525][721]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_MyLightSwitch
+[2024.04.11-20.37.45:526][721]LogSavePackage: Moving '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Saved/BP_MyLightSwitchD8DAFC8F4166D5EE0FAE88BA5B66A7EC.tmp' to '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/Blueprints/BP_MyLightSwitch.uasset'
+[2024.04.11-20.37.45:542][721]LogFileHelpers: InternalPromptForCheckoutAndSave took 62 ms (total: 24.9 sec)
+[2024.04.11-20.37.45:543][721]AssetCheck: New page: Asset Save: BP_MyLightSwitch
+[2024.04.11-20.37.45:543][721]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_MyLightSwitch.BP_MyLightSwitch
+[2024.04.11-20.37.48:286][881]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.11-20.37.48:332][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_MyLightSwitch" FILE="../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/Blueprints/BP_MyLightSwitch.uasset" SILENT=true
+[2024.04.11-20.37.48:336][881]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_MyLightSwitch
+[2024.04.11-20.37.48:337][881]LogSavePackage: Moving '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Saved/BP_MyLightSwitch9BC449A84E87D5DB1C35FDB3C4854481.tmp' to '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/Blueprints/BP_MyLightSwitch.uasset'
+[2024.04.11-20.37.48:353][881]LogFileHelpers: InternalPromptForCheckoutAndSave took 66 ms (total: 24.9 sec)
+[2024.04.11-20.37.48:355][881]AssetCheck: New page: Asset Save: BP_MyLightSwitch
+[2024.04.11-20.37.48:355][881]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_MyLightSwitch.BP_MyLightSwitch
+[2024.04.11-20.38.11:042][980]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.11-20.38.11:084][980]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/House" FILE="../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/Levels/House.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.04.11-20.38.11:133][980]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
+[2024.04.11-20.38.11:157][980]LogSavePackage: Moving output files for package: /Game/Levels/House
+[2024.04.11-20.38.11:158][980]LogSavePackage: Moving '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Saved/HouseB2B6410F493482CA42E55D8F30DE9FB1.tmp' to '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/Levels/House.umap'
+[2024.04.11-20.38.11:166][980]LogFileHelpers: Saving map 'House' took 0.082
+[2024.04.11-20.38.11:181][980]LogFileHelpers: InternalPromptForCheckoutAndSave took 139 ms (total: 25.1 sec)
+[2024.04.11-20.38.11:185][980]AssetCheck: New page: Asset Save: House
+[2024.04.11-20.38.11:185][980]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/House.House
+[2024.04.11-20.38.15:454][376]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.11-20.38.15:466][376]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.04.11-20.38.15:467][376]LogPlayLevel: [PlayLevel] Compiling BP_MyLightSwitch before play...
+[2024.04.11-20.38.15:473][376]LogActor: Warning: BP_MyLightSwitch_C /Engine/Transient.World_85:PersistentLevel.BP_MyLightSwitch_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.04.11-20.38.15:474][376]LogActor: Warning: BP_MyLightSwitch_C /Game/Levels/House.House:PersistentLevel.BP_MyLightSwitch_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.04.11-20.38.15:509][376]LogActor: Warning: BP_MyLightSwitch_C /Engine/Transient.World_87:PersistentLevel.BP_MyLightSwitch_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.04.11-20.38.15:527][376]LogActor: Warning: BP_MyLightSwitch_C /Engine/Transient.World_87:PersistentLevel.BP_MyLightSwitch_C_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.04.11-20.38.15:552][376]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.04.11-20.38.15:554][376]LogPlayLevel: PlayLevel: Blueprint regeneration took 90 ms (1 blueprints)
+[2024.04.11-20.38.15:555][376]PIE: New page: PIE session: House (12. apr. 2024 00.38.15)
+[2024.04.11-20.38.15:557][376]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_House
+[2024.04.11-20.38.15:562][376]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004553s)
+[2024.04.11-20.38.15:562][376]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/House.House to /Game/Levels/UEDPIE_0_House.House (0.004629s)
+[2024.04.11-20.38.15:589][376]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2024.04.11-20.38.15:592][376]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.11-20.38.15:592][376]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.11-20.38.15:593][376]LogAIModule: Creating AISystem for world House
+[2024.04.11-20.38.15:593][376]LogPlayLevel: PIE: World Init took: (0.001185s)
+[2024.04.11-20.38.15:593][376]LogAudio: Display: Creating Audio Device:                 Id: 81, Scope: Unique, Realtime: True
+[2024.04.11-20.38.15:593][376]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.11-20.38.15:593][376]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.11-20.38.15:593][376]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.11-20.38.15:593][376]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.11-20.38.15:593][376]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.11-20.38.15:593][376]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.11-20.38.15:594][376]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.11-20.38.15:594][376]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.11-20.38.15:594][376]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.11-20.38.15:594][376]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.11-20.38.15:594][376]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.11-20.38.15:599][376]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.11-20.38.15:629][376]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Logitech G35 Headset)
+[2024.04.11-20.38.15:631][376]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.11-20.38.15:631][376]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.11-20.38.15:631][376]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.11-20.38.15:635][376]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=81
+[2024.04.11-20.38.15:635][376]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=81
+[2024.04.11-20.38.15:638][376]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=81
+[2024.04.11-20.38.15:638][376]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=81
+[2024.04.11-20.38.15:638][376]LogInit: FAudioDevice initialized with ID 81.
+[2024.04.11-20.38.15:638][376]LogAudio: Display: Audio Device (ID: 81) registered with world 'House'.
+[2024.04.11-20.38.15:638][376]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 81
+[2024.04.11-20.38.15:645][376]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.04.11-20.38.15:653][376]LogWorld: Bringing World /Game/Levels/UEDPIE_0_House.House up for play (max tick rate 0) at 2024.04.11-22.38.15
+[2024.04.11-20.38.15:656][376]LogWorld: Bringing up level for play took: 0.009770
+[2024.04.11-20.38.15:662][376]LogOnline: OSS: Created online subsystem instance for: :Context_168
+[2024.04.11-20.38.15:675][376]PIE: Server logged in
+[2024.04.11-20.38.15:675][376]PIE: Play in editor total start time 0,212 seconds.
+[2024.04.11-20.38.29:185][897]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.11-20.38.29:185][897]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_House
+[2024.04.11-20.38.29:186][897]LogWorld: UWorld::CleanupWorld for House, bSessionEnded=true, bCleanupResources=true
+[2024.04.11-20.38.29:186][897]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.11-20.38.29:208][897]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.11-20.38.29:214][897]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.11-20.38.29:235][897]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.11-20.38.29:235][897]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 81
+[2024.04.11-20.38.29:235][897]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=81
+[2024.04.11-20.38.29:237][897]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=81
+[2024.04.11-20.38.29:247][897]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2024.04.11-20.38.29:345][898]LogPlayLevel: Display: Destroying online subsystem :Context_168
+[2024.04.11-20.38.31:393][ 80]LogEditorViewport: Clicking Background
+[2024.04.11-20.41.14:779][180]LogSlate: External Image Picker: DecompressImage failed
+[2024.04.11-20.41.45:043][266]LogSlate: Window 'Project Settings' being destroyed
+[2024.04.11-20.41.45:048][266]LogSlate: Window 'Project Settings' being destroyed
+[2024.04.11-20.41.52:140][913]LogAssetEditorSubsystem: Opening Asset editor for InputMappingContext /Game/ThirdPerson/Input/IMC_Default.IMC_Default
+[2024.04.11-20.42.31:378][ 73]LogSlate: Window 'Save Asset As' being destroyed
+[2024.04.11-20.47.46:469][595]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.11-20.47.46:507][595]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPerson/Input/IMC_Default" FILE="../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/ThirdPerson/Input/IMC_Default.uasset" SILENT=true
+[2024.04.11-20.47.46:510][595]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Input/IMC_Default
+[2024.04.11-20.47.46:511][595]LogSavePackage: Moving '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Saved/IMC_Default3FB512E245940C6003083BB42E9FE5FF.tmp' to '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/ThirdPerson/Input/IMC_Default.uasset'
+[2024.04.11-20.47.46:526][595]LogFileHelpers: InternalPromptForCheckoutAndSave took 56 ms (total: 25.1 sec)
+[2024.04.11-20.47.46:533][595]AssetCheck: New page: Asset Save: IMC_Default
+[2024.04.11-20.47.46:533][595]LogContentValidation: Display: Validating /Script/EnhancedInput.InputMappingContext /Game/ThirdPerson/Input/IMC_Default.IMC_Default
+[2024.04.11-20.47.56:674][226]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.04.11-20.47.56:683][226]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2024.04.11-20.48.25:052][276]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2024.04.11-20.48.25:058][276]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/Levels/House' took 0.052
+[2024.04.11-20.48.25:060][276]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPerson/Input/Actions/IA_Interact] ([1] browsable assets)...
+[2024.04.11-20.48.25:060][276]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPerson/Input/Actions/IA_Interact]
+[2024.04.11-20.48.25:061][276]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/ThirdPerson/Input/Actions/IA_Interact_Auto7
+[2024.04.11-20.48.25:061][276]LogSavePackage: Moving '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Saved/IA_Interact_Auto7838D32A148079D4A4A3620A5399F90B9.tmp' to '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Saved/Autosaves/Game/ThirdPerson/Input/Actions/IA_Interact_Auto7.uasset'
+[2024.04.11-20.48.25:064][276]LogFileHelpers: Auto-saving content packages took 0.005
+[2024.04.11-20.55.23:496][339]LogUObjectGlobals: Reloading 1 Package(s):
+	Asset Name: /Game/Blueprints/BP_MyLightSwitch
+[2024.04.11-20.55.23:557][339]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2024.04.11-20.55.23:689][339]LogUObjectGlobals: Display: ReloadPackage failed to find a replacement object for 'Default__BP_MyLightSwitch_C:CollisionBox.BodySetup_0' (transient) in the new package '/Game/Blueprints/BP_MyLightSwitch'. Any existing references to this object will be nulled out.
+[2024.04.11-20.55.26:504][339]LogActorComponent: UnregisterComponent: (/Engine/Transient.DirectionalLightComponent_143) Not registered. Aborting.
+[2024.04.11-20.55.26:505][339]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkyLightComponent_85) Not registered. Aborting.
+[2024.04.11-20.55.26:505][339]LogActorComponent: UnregisterComponent: (/Engine/Transient.LineBatchComponent_604) Not registered. Aborting.
+[2024.04.11-20.55.26:505][339]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2024.04.11-20.55.26:505][339]LogWorld: UWorld::CleanupWorld for World_85, bSessionEnded=true, bCleanupResources=true
+[2024.04.11-20.55.26:506][339]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.11-20.55.26:992][339]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2024.04.11-20.55.27:000][339]LogActorComponent: UnregisterComponent: (/Engine/Transient.DirectionalLightComponent_145) Not registered. Aborting.
+[2024.04.11-20.55.27:000][339]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkyLightComponent_87) Not registered. Aborting.
+[2024.04.11-20.55.27:000][339]LogActorComponent: UnregisterComponent: (/Engine/Transient.LineBatchComponent_618) Not registered. Aborting.
+[2024.04.11-20.55.27:000][339]LogActorComponent: UnregisterComponent: (/Engine/Transient.StaticMeshComponent_96) Not registered. Aborting.
+[2024.04.11-20.55.27:000][339]LogActorComponent: UnregisterComponent: (/Engine/Transient.DirectionalLightComponent_146) Not registered. Aborting.
+[2024.04.11-20.55.27:000][339]LogActorComponent: UnregisterComponent: (/Engine/Transient.DirectionalLightComponent_147) Not registered. Aborting.
+[2024.04.11-20.55.27:000][339]LogActorComponent: UnregisterComponent: (/Engine/Transient.StaticMeshComponent_97) Not registered. Aborting.
+[2024.04.11-20.55.27:000][339]LogWorld: UWorld::CleanupWorld for World_87, bSessionEnded=true, bCleanupResources=true
+[2024.04.11-20.55.27:000][339]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.11-20.55.27:014][339]LogActor: Warning: BP_MyLightSwitch_C /Game/Levels/House.House:PersistentLevel.BP_MyLightSwitch_C_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.04.11-20.55.27:016][339]LogActor: Warning: BP_MyLightSwitch_C /Engine/Transient.World_87:PersistentLevel.BP_MyLightSwitch_C_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.04.11-20.55.27:017][339]LogSpawn: Warning: UWorld::DestroyActor: World has no context! World: World_87, Actor: /Engine/Transient.World_87:PersistentLevel.BP_MyLightSwitch_C_3
+[2024.04.11-20.55.28:784][339]LogUObjectHash: Compacting FUObjectHashTables data took  15.59ms
+[2024.04.11-20.55.28:803][339]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_MyLightSwitch.BP_MyLightSwitch
+[2024.04.11-20.55.28:809][339]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.11-20.55.28:810][339]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.11-20.55.30:086][339]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.11-20.55.30:096][339]LogActor: Warning: BP_MyLightSwitch_C /Engine/Transient.World_89:PersistentLevel.BP_MyLightSwitch_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.04.11-20.55.30:103][339]LogActor: Warning: BP_MyLightSwitch_C /Engine/Transient.World_88:PersistentLevel.BP_MyLightSwitch_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2024.04.11-20.55.42:533][348]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.11-20.55.42:547][348]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.11-20.55.42:549][348]PIE: New page: PIE session: House (12. apr. 2024 00.55.42)
+[2024.04.11-20.55.42:579][348]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_House
+[2024.04.11-20.55.42:595][348]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016141s)
+[2024.04.11-20.55.42:595][348]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/House.House to /Game/Levels/UEDPIE_0_House.House (0.016521s)
+[2024.04.11-20.55.42:713][348]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2024.04.11-20.55.42:719][348]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.11-20.55.42:719][348]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.11-20.55.42:720][348]LogAIModule: Creating AISystem for world House
+[2024.04.11-20.55.42:724][348]LogPlayLevel: PIE: World Init took: (0.005840s)
+[2024.04.11-20.55.42:724][348]LogAudio: Display: Creating Audio Device:                 Id: 82, Scope: Unique, Realtime: True
+[2024.04.11-20.55.42:724][348]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.11-20.55.42:724][348]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.11-20.55.42:724][348]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.11-20.55.42:724][348]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.11-20.55.42:724][348]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.11-20.55.42:724][348]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.11-20.55.42:724][348]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.11-20.55.42:724][348]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.11-20.55.42:726][348]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.11-20.55.42:726][348]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.11-20.55.42:726][348]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.11-20.55.42:787][348]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.11-20.55.42:820][348]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Logitech G35 Headset)
+[2024.04.11-20.55.42:827][348]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.11-20.55.42:827][348]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.11-20.55.42:827][348]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.11-20.55.42:831][348]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=82
+[2024.04.11-20.55.42:831][348]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=82
+[2024.04.11-20.55.42:836][348]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=82
+[2024.04.11-20.55.42:836][348]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=82
+[2024.04.11-20.55.42:836][348]LogInit: FAudioDevice initialized with ID 82.
+[2024.04.11-20.55.42:837][348]LogAudio: Display: Audio Device (ID: 82) registered with world 'House'.
+[2024.04.11-20.55.42:837][348]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 82
+[2024.04.11-20.55.42:854][348]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.04.11-20.55.42:866][348]LogWorld: Bringing World /Game/Levels/UEDPIE_0_House.House up for play (max tick rate 0) at 2024.04.11-22.55.42
+[2024.04.11-20.55.42:875][348]LogWorld: Bringing up level for play took: 0.019572
+[2024.04.11-20.55.42:892][348]LogOnline: OSS: Created online subsystem instance for: :Context_171
+[2024.04.11-20.55.42:917][348]PIE: Server logged in
+[2024.04.11-20.55.42:918][348]PIE: Play in editor total start time 0,374 seconds.
+[2024.04.11-20.55.59:627][243]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.11-20.55.59:627][243]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_House
+[2024.04.11-20.55.59:628][243]LogWorld: UWorld::CleanupWorld for House, bSessionEnded=true, bCleanupResources=true
+[2024.04.11-20.55.59:628][243]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.11-20.55.59:673][243]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.11-20.55.59:679][243]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.11-20.55.59:699][243]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.11-20.55.59:700][243]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 82
+[2024.04.11-20.55.59:700][243]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=82
+[2024.04.11-20.55.59:711][243]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=82
+[2024.04.11-20.55.59:749][243]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.11-20.55.59:774][243]LogUObjectHash: Compacting FUObjectHashTables data took  21.95ms
+[2024.04.11-20.55.59:830][244]LogPlayLevel: Display: Destroying online subsystem :Context_171
+[2024.04.11-20.58.22:305][ 56]LogViewport: Scene viewport resized to 1141x691, mode Windowed.
+[2024.04.11-21.19.50:269][715]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.04.11-21.20.22:784][352]LogLiveCoding: Display: LightSwitch.gen.cpp.obj : error LNK2005: "public: void __cdecl ALightSwitch::Interact(void)" (?Interact@ALightSwitch@@QEAAXXZ) already defined in LightSwitch.cpp.obj
+   Creating library C:\Users\Frederik\Documents\GitHub\UnrealInitial\Initial\Binaries\Win64\UnrealEditor-Initial.patch_4.lib and object C:\Users\Frederik\Documents\GitHub\UnrealInitial\Initial\Binaries\Win64\UnrealEditor-Initial.patch_4.exp
+LightSwitch.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl ALightSwitch::Interact_Implementation(void)" (?Interact_Implementation@ALightSwitch@@UEAAXXZ)
+LightSwitch.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl ALightSwitch::Interact_Implementation(void)" (?Interact_Implementation@ALightSwitch@@UEAAXXZ)
+C:\Users\Frederik\Documents\GitHub\UnrealInitial\Initial\Binaries\Win64\UnrealEditor-Initial.patch_4.exe : fatal error LNK1120: 1 unresolved externals
+[2024.04.11-21.20.23:024][353]Display: Reload/Re-instancing Complete: No object changes detected
+[2024.04.11-21.20.23:024][353]LogLiveCoding: Error: Live coding failed, please see Live console for more information
+[2024.04.11-21.24.36:067][112]LogDerivedDataCache: C:/Users/Frederik/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.395 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 1247 files in 2075 folders with total size 86 MiB.
+[2024.04.11-21.25.32:132][544]LogUObjectHash: Compacting FUObjectHashTables data took  18.56ms
+[2024.04.11-21.25.35:936][544]LogSlate: Window 'Save Content' being destroyed
+[2024.04.11-21.25.35:968][544]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.11-21.25.36:094][544]LogSavePackage: Moving output files for package: /Game/ThirdPerson/Input/Actions/IA_Interact
+[2024.04.11-21.25.36:094][544]LogSavePackage: Moving '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Saved/IA_Interact5B42610A41EFC04015A03EB198FD7029.tmp' to '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/ThirdPerson/Input/Actions/IA_Interact.uasset'
+[2024.04.11-21.25.36:159][544]LogFileHelpers: InternalPromptForCheckoutAndSave took 192 ms (total: 25.3 sec)
+[2024.04.11-21.25.36:168][544]AssetCheck: New page: Asset Save: IA_Interact
+[2024.04.11-21.25.36:169][544]LogContentValidation: Display: Validating /Script/EnhancedInput.InputAction /Game/ThirdPerson/Input/Actions/IA_Interact.IA_Interact
+[2024.04.11-21.25.39:734][855]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.04.11-21.26.20:000][846]LogLiveCoding: Display: LightSwitch.gen.cpp.obj : error LNK2005: "public: void __cdecl ALightSwitch::Toggle(void)" (?Toggle@ALightSwitch@@QEAAXXZ) already defined in LightSwitch.cpp.obj
+   Creating library C:\Users\Frederik\Documents\GitHub\UnrealInitial\Initial\Binaries\Win64\UnrealEditor-Initial.patch_4.lib and object C:\Users\Frederik\Documents\GitHub\UnrealInitial\Initial\Binaries\Win64\UnrealEditor-Initial.patch_4.exp
+LightSwitch.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl ALightSwitch::Toggle_Implementation(void)" (?Toggle_Implementation@ALightSwitch@@UEAAXXZ)
+LightSwitch.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl ALightSwitch::Toggle_Implementation(void)" (?Toggle_Implementation@ALightSwitch@@UEAAXXZ)
+C:\Users\Frederik\Documents\GitHub\UnrealInitial\Initial\Binaries\Win64\UnrealEditor-Initial.patch_4.exe : fatal error LNK1120: 1 unresolved externals
+[2024.04.11-21.26.20:052][847]Display: Reload/Re-instancing Complete: No object changes detected
+[2024.04.11-21.26.20:052][847]LogLiveCoding: Error: Live coding failed, please see Live console for more information
+[2024.04.11-22.00.24:202][550]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.04.11-22.00.46:301][694]LogLiveCoding: Display: LightSwitch.gen.cpp.obj : error LNK2005: "public: void __cdecl ALightSwitch::Toggle(void)" (?Toggle@ALightSwitch@@QEAAXXZ) already defined in LightSwitch.cpp.obj
+   Creating library C:\Users\Frederik\Documents\GitHub\UnrealInitial\Initial\Binaries\Win64\UnrealEditor-Initial.patch_4.lib and object C:\Users\Frederik\Documents\GitHub\UnrealInitial\Initial\Binaries\Win64\UnrealEditor-Initial.patch_4.exp
+LightSwitch.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl ALightSwitch::Toggle_Implementation(void)" (?Toggle_Implementation@ALightSwitch@@UEAAXXZ)
+LightSwitch.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl ALightSwitch::Toggle_Implementation(void)" (?Toggle_Implementation@ALightSwitch@@UEAAXXZ)
+C:\Users\Frederik\Documents\GitHub\UnrealInitial\Initial\Binaries\Win64\UnrealEditor-Initial.patch_4.exe : fatal error LNK1120: 1 unresolved externals
+[2024.04.11-22.00.46:526][695]Display: Reload/Re-instancing Complete: No object changes detected
+[2024.04.11-22.00.46:526][695]LogLiveCoding: Error: Live coding failed, please see Live console for more information
+[2024.04.11-22.02.30:029][325]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.04.11-22.02.34:482][700]LogLiveCoding: Display: LightSwitch.gen.cpp.obj : error LNK2005: "public: void __cdecl ALightSwitch::Toggle(void)" (?Toggle@ALightSwitch@@QEAAXXZ) already defined in LightSwitch.cpp.obj
+   Creating library C:\Users\Frederik\Documents\GitHub\UnrealInitial\Initial\Binaries\Win64\UnrealEditor-Initial.patch_4.lib and object C:\Users\Frederik\Documents\GitHub\UnrealInitial\Initial\Binaries\Win64\UnrealEditor-Initial.patch_4.exp
+LightSwitch.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl ALightSwitch::Toggle_Implementation(void)" (?Toggle_Implementation@ALightSwitch@@UEAAXXZ)
+LightSwitch.gen.cpp.obj : error LNK2001: unresolved external symbol "public: virtual void __cdecl ALightSwitch::Toggle_Implementation(void)" (?Toggle_Implementation@ALightSwitch@@UEAAXXZ)
+C:\Users\Frederik\Documents\GitHub\UnrealInitial\Initial\Binaries\Win64\UnrealEditor-Initial.patch_4.exe : fatal error LNK1120: 1 unresolved externals
+[2024.04.11-22.02.34:484][701]Display: Reload/Re-instancing Complete: No object changes detected
+[2024.04.11-22.02.34:484][701]LogLiveCoding: Error: Live coding failed, please see Live console for more information
+[2024.04.11-22.02.40:809][184]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.11-22.02.40:997][184]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/House" FILE="../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/Levels/House.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.04.11-22.02.41:762][184]LogUObjectHash: Compacting FUObjectHashTables data took  40.10ms
+[2024.04.11-22.02.41:979][184]LogSavePackage: Moving output files for package: /Game/Levels/House
+[2024.04.11-22.02.41:981][184]LogSavePackage: Moving '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Saved/HouseA4C276564B52AFC2DDEF6899A54F29D8.tmp' to '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/Levels/House.umap'
+[2024.04.11-22.02.42:059][184]LogFileHelpers: Saving map 'House' took 1.089
+[2024.04.11-22.02.42:078][184]LogFileHelpers: InternalPromptForCheckoutAndSave took 1.26 sec (total: 26.6 sec)
+[2024.04.11-22.02.42:083][184]AssetCheck: New page: Asset Save: House
+[2024.04.11-22.02.42:083][184]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/House.House
+[2024.04.11-22.02.43:684][296]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms

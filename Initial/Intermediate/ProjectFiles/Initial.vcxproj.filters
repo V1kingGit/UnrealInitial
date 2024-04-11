@@ -15,6 +15,9 @@
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
     <None Include="..\..\Config\DefaultEngine.ini">
       <Filter>Config</Filter>
     </None>
@@ -31,6 +34,12 @@
       <Filter>Source\Initial</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\Initial\Initial.h">
+      <Filter>Source\Initial</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Initial\LightSwitch.cpp">
+      <Filter>Source\Initial</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Initial\LightSwitch.h">
       <Filter>Source\Initial</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\Initial\MyCharacter.cpp">
