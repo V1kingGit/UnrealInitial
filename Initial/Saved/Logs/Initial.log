@@ -1348,3 +1348,15 @@ Make sure 'BP_MyLightSwitch_C' has been compiled for  Toggle
 [2024.04.12-00.08.38:035][453]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
 [2024.04.12-00.08.38:052][453]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
 [2024.04.12-00.08.38:131][454]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2024.04.12-00.09.16:783][302]LogSceneOutliner: Outliner Column Item Label does not have a localizable name, please specify one to FSceneOutlinerColumnInfo
+[2024.04.12-00.09.16:783][302]LogSceneOutliner: Outliner Column Type does not have a localizable name, please specify one to FSceneOutlinerColumnInfo
+[2024.04.12-00.09.20:902][733]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.12-00.09.20:937][733]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/House" FILE="../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/Levels/House.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.04.12-00.09.20:987][733]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2024.04.12-00.09.21:002][733]LogSavePackage: Moving output files for package: /Game/Levels/House
+[2024.04.12-00.09.21:003][733]LogSavePackage: Moving '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Saved/House1494BE4A4C644188C6598380478DB284.tmp' to '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/Levels/House.umap'
+[2024.04.12-00.09.21:010][733]LogFileHelpers: Saving map 'House' took 0.074
+[2024.04.12-00.09.21:018][733]LogFileHelpers: InternalPromptForCheckoutAndSave took 115 ms (total: 449 ms)
+[2024.04.12-00.09.21:019][733]AssetCheck: New page: Asset Save: House
+[2024.04.12-00.09.21:019][733]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/House.House
+[2024.04.12-00.09.24:337][ 58]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
