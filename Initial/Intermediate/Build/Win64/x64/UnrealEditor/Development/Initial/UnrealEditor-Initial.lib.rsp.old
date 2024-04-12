@@ -7,6 +7,7 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "C:\Users\Frederik\Documents\GitHub\UnrealInitial\Initial\Intermediate\Build\Win64\x64\InitialEditor\Development\Engine\SharedPCH.Engine.Cpp20.InclOrderUnreal5_0.h.obj"
+"C:\Users\Frederik\Documents\GitHub\UnrealInitial\Initial\Intermediate\Build\Win64\x64\UnrealEditor\Development\Initial\CaptureZone.gen.cpp.obj"
 "C:\Users\Frederik\Documents\GitHub\UnrealInitial\Initial\Intermediate\Build\Win64\x64\UnrealEditor\Development\Initial\Initial.init.gen.cpp.obj"
 "C:\Users\Frederik\Documents\GitHub\UnrealInitial\Initial\Intermediate\Build\Win64\x64\UnrealEditor\Development\Initial\LightSwitch.gen.cpp.obj"
 "C:\Users\Frederik\Documents\GitHub\UnrealInitial\Initial\Intermediate\Build\Win64\x64\UnrealEditor\Development\Initial\MyCharacter.gen.cpp.obj"
@@ -15,5 +16,6 @@
 "C:\Users\Frederik\Documents\GitHub\UnrealInitial\Initial\Intermediate\Build\Win64\x64\UnrealEditor\Development\Initial\LightSwitch.cpp.obj"
 "C:\Users\Frederik\Documents\GitHub\UnrealInitial\Initial\Intermediate\Build\Win64\x64\UnrealEditor\Development\Initial\MyCharacter.cpp.obj"
 "C:\Users\Frederik\Documents\GitHub\UnrealInitial\Initial\Intermediate\Build\Win64\x64\UnrealEditor\Development\Initial\OpenableDoor.cpp.obj"
+"C:\Users\Frederik\Documents\GitHub\UnrealInitial\Initial\Intermediate\Build\Win64\x64\UnrealEditor\Development\Initial\CaptureZone.cpp.obj"
 "C:\Users\Frederik\Documents\GitHub\UnrealInitial\Initial\Intermediate\Build\Win64\x64\UnrealEditor\Development\Initial\Default.rc2.res"
 /OUT:"C:\Users\Frederik\Documents\GitHub\UnrealInitial\Initial\Intermediate\Build\Win64\x64\UnrealEditor\Development\Initial\UnrealEditor-Initial.lib"
