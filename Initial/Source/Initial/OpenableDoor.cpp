@@ -43,10 +43,22 @@ void AOpenableDoor::Toggle()
 		GEngine->AddOnScreenDebugMessage(-1, 0.5f, FColor::Yellow, TEXT("Toggling Door"));
 
 	IsOpen = !IsOpen;
-	if(IsOpen)
-		Door->SetActorRelativeRotation(FRotator::ZeroRotator);
-	else
-		Door->SetActorRelativeRotation(FRotator(0.0f, 0.0f, -120.0f));
+	if(GEngine)
+	{
+		if(IsOpen)
+			GEngine->AddOnScreenDebugMessage(-1, 0.5f, FColor::Yellow, TEXT("Opening door"));
+		else
+			GEngine->AddOnScreenDebugMessage(-1, 0.5f, FColor::Yellow, TEXT("Closing door"));
+
+		if(Door)
+			GEngine->AddOnScreenDebugMessage(-1, 0.5f, FColor::Yellow, TEXT("Door exists"));
+		if(Door != NULL)
+			GEngine->AddOnScreenDebugMessage(-1, 0.5f, FColor::Yellow, TEXT("Door not null"));
+	}
+	//if(IsOpen)
+	//	Door->SetActorRelativeRotation(FRotator(0.0f, 0.0f, -120.0f));
+	//else
+	//  Door->SetActorRelativeRotation(FRotator::ZeroRotator);
 }
 
 void AOpenableDoor::OnOverlapBegin(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
