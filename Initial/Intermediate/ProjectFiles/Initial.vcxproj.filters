@@ -27,6 +27,12 @@
     <Filter Include="Source\Initial">
       <UniqueIdentifier>{61ED8819-82DA-3546-993F-CAA0DE3ACE9E}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\Initial\CaptureZone.cpp">
+      <Filter>Source\Initial</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Initial\CaptureZone.h">
+      <Filter>Source\Initial</Filter>
+    </ClInclude>
     <None Include="..\..\Source\Initial\Initial.Build.cs">
       <Filter>Source\Initial</Filter>
     </None>
