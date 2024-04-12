@@ -34,6 +34,7 @@ protected:
 
 	float timeSinceTick;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float percentage;
 
 	bool capturing;

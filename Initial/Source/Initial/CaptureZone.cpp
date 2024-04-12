@@ -34,25 +34,26 @@ void ACaptureZone::Tick(float DeltaTime)
 
 	if(capturing)
 	{
+		if(percentage >= 1.0f)
+		{
+			capturing = false;
+			timeSinceTick = 0;
+			return;
+		}
+
 		timeSinceTick += DeltaTime;
 
-		percentage = FMath::Clamp(timeSinceTick / CaptureTime * 100.0f, 0.0f, 100.0f);
+		percentage = FMath::Clamp(timeSinceTick / CaptureTime, 0.0f, 1.0f);
 
 		GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Yellow, FString::Printf(TEXT("Float value: %f"), percentage));
 
 		float newZPosition;
-		newZPosition = FMath::Lerp(-20.0f, 20.0f, percentage / 100.0f);
+		newZPosition = FMath::Lerp(-20.0f, 20.0f, percentage);
 
 		FVector newLocation = FlagMesh->GetRelativeLocation();
 		newLocation.Z = newZPosition;
 
 		FlagMesh->SetRelativeLocation(newLocation);
-
-		if(percentage >= 100.0f)
-		{
-			capturing = false;
-			timeSinceTick = 0;
-		}
 	}
 }
 

@@ -226,6 +226,10 @@ void EmptyLinkFunctionForGeneratedCodeCaptureZone() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_CaptureTime_MetaData[];
 #endif
 		static const UECodeGen_Private::FFloatPropertyParams NewProp_CaptureTime;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_percentage_MetaData[];
+#endif
+		static const UECodeGen_Private::FFloatPropertyParams NewProp_percentage;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -277,11 +281,19 @@ void EmptyLinkFunctionForGeneratedCodeCaptureZone() {}
 	};
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ACaptureZone_Statics::NewProp_CaptureTime = { "CaptureTime", nullptr, (EPropertyFlags)0x0020080000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ACaptureZone, CaptureTime), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_ACaptureZone_Statics::NewProp_CaptureTime_MetaData), Z_Construct_UClass_ACaptureZone_Statics::NewProp_CaptureTime_MetaData) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACaptureZone_Statics::NewProp_percentage_MetaData[] = {
+		{ "Category", "CaptureZone" },
+		{ "ModuleRelativePath", "CaptureZone.h" },
+	};
+#endif
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ACaptureZone_Statics::NewProp_percentage = { "percentage", nullptr, (EPropertyFlags)0x0020080000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(ACaptureZone, percentage), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_ACaptureZone_Statics::NewProp_percentage_MetaData), Z_Construct_UClass_ACaptureZone_Statics::NewProp_percentage_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ACaptureZone_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACaptureZone_Statics::NewProp_CollisionComponent,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACaptureZone_Statics::NewProp_PoleMesh,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACaptureZone_Statics::NewProp_FlagMesh,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACaptureZone_Statics::NewProp_CaptureTime,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACaptureZone_Statics::NewProp_percentage,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ACaptureZone_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ACaptureZone>::IsAbstract,
@@ -321,9 +333,9 @@ void EmptyLinkFunctionForGeneratedCodeCaptureZone() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Frederik_Documents_GitHub_UnrealInitial_Initial_Source_Initial_CaptureZone_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ACaptureZone, ACaptureZone::StaticClass, TEXT("ACaptureZone"), &Z_Registration_Info_UClass_ACaptureZone, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ACaptureZone), 2337289994U) },
+		{ Z_Construct_UClass_ACaptureZone, ACaptureZone::StaticClass, TEXT("ACaptureZone"), &Z_Registration_Info_UClass_ACaptureZone, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ACaptureZone), 3457306755U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Frederik_Documents_GitHub_UnrealInitial_Initial_Source_Initial_CaptureZone_h_2966782619(TEXT("/Script/Initial"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_Frederik_Documents_GitHub_UnrealInitial_Initial_Source_Initial_CaptureZone_h_1813519427(TEXT("/Script/Initial"),
 		Z_CompiledInDeferFile_FID_Users_Frederik_Documents_GitHub_UnrealInitial_Initial_Source_Initial_CaptureZone_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_Frederik_Documents_GitHub_UnrealInitial_Initial_Source_Initial_CaptureZone_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
