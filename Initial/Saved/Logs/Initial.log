@@ -1360,3 +1360,738 @@ Make sure 'BP_MyLightSwitch_C' has been compiled for  Toggle
 [2024.04.12-00.09.21:019][733]AssetCheck: New page: Asset Save: House
 [2024.04.12-00.09.21:019][733]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/House.House
 [2024.04.12-00.09.24:337][ 58]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2024.04.12-00.10.14:146][ 53]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.12-00.10.14:153][ 53]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.12-00.10.14:153][ 53]PIE: New page: PIE session: House (12. apr. 2024 04.10.14)
+[2024.04.12-00.10.14:180][ 53]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_House
+[2024.04.12-00.10.14:186][ 53]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006267s)
+[2024.04.12-00.10.14:186][ 53]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/House.House to /Game/Levels/UEDPIE_0_House.House (0.006321s)
+[2024.04.12-00.10.14:204][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2024.04.12-00.10.14:206][ 53]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.12-00.10.14:206][ 53]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.12-00.10.14:206][ 53]LogAIModule: Creating AISystem for world House
+[2024.04.12-00.10.14:207][ 53]LogPlayLevel: PIE: World Init took: (0.001268s)
+[2024.04.12-00.10.14:207][ 53]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2024.04.12-00.10.14:207][ 53]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.12-00.10.14:207][ 53]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.12-00.10.14:207][ 53]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.12-00.10.14:207][ 53]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.12-00.10.14:207][ 53]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.12-00.10.14:207][ 53]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.12-00.10.14:207][ 53]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.12-00.10.14:207][ 53]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.12-00.10.14:208][ 53]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.12-00.10.14:208][ 53]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.12-00.10.14:208][ 53]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.12-00.10.14:211][ 53]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.12-00.10.14:252][ 53]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Logitech G35 Headset)
+[2024.04.12-00.10.14:252][ 53]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.12-00.10.14:252][ 53]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.12-00.10.14:252][ 53]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.12-00.10.14:253][ 53]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2024.04.12-00.10.14:253][ 53]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=3
+[2024.04.12-00.10.14:256][ 53]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2024.04.12-00.10.14:256][ 53]LogInit: FAudioDevice initialized with ID 3.
+[2024.04.12-00.10.14:256][ 53]LogAudio: Display: Audio Device (ID: 3) registered with world 'House'.
+[2024.04.12-00.10.14:256][ 53]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2024.04.12-00.10.14:256][ 53]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2024.04.12-00.10.14:260][ 53]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.04.12-00.10.14:266][ 53]LogWorld: Bringing World /Game/Levels/UEDPIE_0_House.House up for play (max tick rate 0) at 2024.04.12-02.10.14
+[2024.04.12-00.10.14:267][ 53]LogWorld: Bringing up level for play took: 0.006794
+[2024.04.12-00.10.14:270][ 53]LogOnline: OSS: Created online subsystem instance for: :Context_10
+[2024.04.12-00.10.14:279][ 53]PIE: Server logged in
+[2024.04.12-00.10.14:280][ 53]PIE: Play in editor total start time 0,127 seconds.
+[2024.04.12-00.10.18:820][568]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.12-00.10.18:820][568]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_House
+[2024.04.12-00.10.18:821][568]LogWorld: UWorld::CleanupWorld for House, bSessionEnded=true, bCleanupResources=true
+[2024.04.12-00.10.18:821][568]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.12-00.10.18:826][568]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.12-00.10.18:831][568]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.12-00.10.18:846][568]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.12-00.10.18:847][568]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2024.04.12-00.10.18:847][568]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.04.12-00.10.18:849][568]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.04.12-00.10.18:857][568]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2024.04.12-00.10.18:934][569]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2024.04.12-00.10.34:785][986]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.04.12-00.11.19:233][214]LogLiveCoding: Display:    Creating library C:\Users\Frederik\Documents\GitHub\UnrealInitial\Initial\Binaries\Win64\UnrealEditor-Initial.patch_1.lib and object C:\Users\Frederik\Documents\GitHub\UnrealInitial\Initial\Binaries\Win64\UnrealEditor-Initial.patch_1.exp
+[2024.04.12-00.11.19:949][216]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2024.04.12-00.11.20:879][217]Display: Reload/Re-instancing Complete: No object changes detected
+[2024.04.12-00.11.20:879][217]LogLiveCoding: Display: Live coding succeeded
+[2024.04.12-00.11.35:300][618]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.12-00.11.35:308][618]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.12-00.11.35:308][618]PIE: New page: PIE session: House (12. apr. 2024 04.11.35)
+[2024.04.12-00.11.35:330][618]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_House
+[2024.04.12-00.11.35:336][618]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005756s)
+[2024.04.12-00.11.35:336][618]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/House.House to /Game/Levels/UEDPIE_0_House.House (0.005849s)
+[2024.04.12-00.11.35:520][618]LogUObjectHash: Compacting FUObjectHashTables data took   2.88ms
+[2024.04.12-00.11.35:521][618]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.12-00.11.35:521][618]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.12-00.11.35:522][618]LogAIModule: Creating AISystem for world House
+[2024.04.12-00.11.35:522][618]LogPlayLevel: PIE: World Init took: (0.001662s)
+[2024.04.12-00.11.35:522][618]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2024.04.12-00.11.35:522][618]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.12-00.11.35:522][618]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.12-00.11.35:522][618]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.12-00.11.35:522][618]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.12-00.11.35:523][618]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.12-00.11.35:523][618]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.12-00.11.35:523][618]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.12-00.11.35:523][618]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.12-00.11.35:523][618]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.12-00.11.35:523][618]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.12-00.11.35:523][618]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.12-00.11.35:527][618]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.12-00.11.35:558][618]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Logitech G35 Headset)
+[2024.04.12-00.11.35:561][618]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.12-00.11.35:561][618]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.12-00.11.35:561][618]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.12-00.11.35:568][618]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2024.04.12-00.11.35:568][618]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=4
+[2024.04.12-00.11.35:570][618]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2024.04.12-00.11.35:570][618]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2024.04.12-00.11.35:570][618]LogInit: FAudioDevice initialized with ID 4.
+[2024.04.12-00.11.35:570][618]LogAudio: Display: Audio Device (ID: 4) registered with world 'House'.
+[2024.04.12-00.11.35:570][618]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2024.04.12-00.11.35:573][618]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.04.12-00.11.35:579][618]LogWorld: Bringing World /Game/Levels/UEDPIE_0_House.House up for play (max tick rate 0) at 2024.04.12-02.11.35
+[2024.04.12-00.11.35:580][618]LogWorld: Bringing up level for play took: 0.006943
+[2024.04.12-00.11.35:583][618]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2024.04.12-00.11.35:592][618]PIE: Server logged in
+[2024.04.12-00.11.35:593][618]PIE: Play in editor total start time 0,286 seconds.
+[2024.04.12-00.11.38:017][866]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_House.House:PersistentLevel.StaticMeshActor_39 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2024.04.12-00.11.39:743][ 46]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_House.House:PersistentLevel.StaticMeshActor_39 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2024.04.12-00.11.40:649][147]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_House.House:PersistentLevel.StaticMeshActor_39 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2024.04.12-00.11.41:280][217]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_House.House:PersistentLevel.StaticMeshActor_39 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2024.04.12-00.11.41:785][275]PIE: Warning: Mobility of /Game/Levels/UEDPIE_0_House.House:PersistentLevel.StaticMeshActor_39 : StaticMeshComponent0 has to be 'Movable' if you'd like to move. 
+[2024.04.12-00.11.42:220][322]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.12-00.11.42:220][322]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_House
+[2024.04.12-00.11.42:221][322]LogWorld: UWorld::CleanupWorld for House, bSessionEnded=true, bCleanupResources=true
+[2024.04.12-00.11.42:221][322]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.12-00.11.42:245][322]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.12-00.11.42:252][322]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.12-00.11.42:273][322]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.12-00.11.42:273][322]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 4
+[2024.04.12-00.11.42:273][322]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.04.12-00.11.42:275][322]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2024.04.12-00.11.42:342][322]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2024.04.12-00.11.42:499][323]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2024.04.12-00.11.47:121][750]LogSlate: Window 'Message Log' being destroyed
+[2024.04.12-00.11.47:130][750]LogSlate: Window 'Message Log' being destroyed
+[2024.04.12-00.11.55:174][516]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.12-00.11.55:209][516]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/House" FILE="../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/Levels/House.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.04.12-00.11.55:250][516]LogUObjectHash: Compacting FUObjectHashTables data took   1.20ms
+[2024.04.12-00.11.55:268][516]LogSavePackage: Moving output files for package: /Game/Levels/House
+[2024.04.12-00.11.55:269][516]LogSavePackage: Moving '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Saved/House32B1240442FA4F39BE995C93FD248C55.tmp' to '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/Levels/House.umap'
+[2024.04.12-00.11.55:276][516]LogFileHelpers: Saving map 'House' took 0.068
+[2024.04.12-00.11.55:287][516]LogFileHelpers: InternalPromptForCheckoutAndSave took 112 ms (total: 561 ms)
+[2024.04.12-00.11.55:289][516]AssetCheck: New page: Asset Save: House
+[2024.04.12-00.11.55:289][516]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/House.House
+[2024.04.12-00.11.57:224][697]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.12-00.11.57:230][697]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.12-00.11.57:230][697]PIE: New page: PIE session: House (12. apr. 2024 04.11.57)
+[2024.04.12-00.11.57:260][697]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_House
+[2024.04.12-00.11.57:265][697]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004239s)
+[2024.04.12-00.11.57:265][697]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/House.House to /Game/Levels/UEDPIE_0_House.House (0.004296s)
+[2024.04.12-00.11.57:282][697]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2024.04.12-00.11.57:283][697]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.12-00.11.57:283][697]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.12-00.11.57:284][697]LogAIModule: Creating AISystem for world House
+[2024.04.12-00.11.57:284][697]LogPlayLevel: PIE: World Init took: (0.000924s)
+[2024.04.12-00.11.57:284][697]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2024.04.12-00.11.57:284][697]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.12-00.11.57:284][697]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.12-00.11.57:284][697]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.12-00.11.57:284][697]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.12-00.11.57:284][697]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.12-00.11.57:284][697]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.12-00.11.57:284][697]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.12-00.11.57:284][697]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.12-00.11.57:285][697]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.12-00.11.57:285][697]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.12-00.11.57:285][697]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.12-00.11.57:287][697]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.12-00.11.57:318][697]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Logitech G35 Headset)
+[2024.04.12-00.11.57:319][697]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.12-00.11.57:319][697]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.12-00.11.57:319][697]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.12-00.11.57:319][697]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2024.04.12-00.11.57:319][697]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=5
+[2024.04.12-00.11.57:322][697]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2024.04.12-00.11.57:322][697]LogInit: FAudioDevice initialized with ID 5.
+[2024.04.12-00.11.57:322][697]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2024.04.12-00.11.57:322][697]LogAudio: Display: Audio Device (ID: 5) registered with world 'House'.
+[2024.04.12-00.11.57:322][697]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 5
+[2024.04.12-00.11.57:325][697]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.04.12-00.11.57:330][697]LogWorld: Bringing World /Game/Levels/UEDPIE_0_House.House up for play (max tick rate 0) at 2024.04.12-02.11.57
+[2024.04.12-00.11.57:331][697]LogWorld: Bringing up level for play took: 0.006051
+[2024.04.12-00.11.57:334][697]LogOnline: OSS: Created online subsystem instance for: :Context_12
+[2024.04.12-00.11.57:343][697]PIE: Server logged in
+[2024.04.12-00.11.57:343][697]PIE: Play in editor total start time 0,114 seconds.
+[2024.04.12-00.12.17:233][405]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.12-00.12.17:233][405]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_House
+[2024.04.12-00.12.17:233][405]LogWorld: UWorld::CleanupWorld for House, bSessionEnded=true, bCleanupResources=true
+[2024.04.12-00.12.17:234][405]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.12-00.12.17:238][405]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.12-00.12.17:245][405]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.12-00.12.17:260][405]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.12-00.12.17:260][405]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 5
+[2024.04.12-00.12.17:260][405]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.04.12-00.12.17:265][405]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2024.04.12-00.12.17:274][405]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2024.04.12-00.12.17:353][406]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2024.04.12-00.12.30:633][659]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.04.12-00.12.40:931][667]LogLiveCoding: Display:    Creating library C:\Users\Frederik\Documents\GitHub\UnrealInitial\Initial\Binaries\Win64\UnrealEditor-Initial.patch_2.lib and object C:\Users\Frederik\Documents\GitHub\UnrealInitial\Initial\Binaries\Win64\UnrealEditor-Initial.patch_2.exp
+[2024.04.12-00.12.41:191][672]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2024.04.12-00.12.41:768][673]Display: Reload/Re-instancing Complete: No object changes detected
+[2024.04.12-00.12.41:768][673]LogLiveCoding: Display: Live coding succeeded
+[2024.04.12-00.12.45:502][  3]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.12-00.12.45:511][  3]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.12-00.12.45:511][  3]PIE: New page: PIE session: House (12. apr. 2024 04.12.45)
+[2024.04.12-00.12.45:511][  3]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_House
+[2024.04.12-00.12.45:519][  3]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008447s)
+[2024.04.12-00.12.45:519][  3]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/House.House to /Game/Levels/UEDPIE_0_House.House (0.008505s)
+[2024.04.12-00.12.45:600][  3]LogUObjectHash: Compacting FUObjectHashTables data took   2.52ms
+[2024.04.12-00.12.45:602][  3]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.12-00.12.45:602][  3]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.12-00.12.45:603][  3]LogAIModule: Creating AISystem for world House
+[2024.04.12-00.12.45:604][  3]LogPlayLevel: PIE: World Init took: (0.001935s)
+[2024.04.12-00.12.45:604][  3]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2024.04.12-00.12.45:604][  3]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.12-00.12.45:604][  3]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.12-00.12.45:604][  3]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.12-00.12.45:604][  3]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.12-00.12.45:604][  3]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.12-00.12.45:604][  3]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.12-00.12.45:604][  3]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.12-00.12.45:604][  3]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.12-00.12.45:605][  3]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.12-00.12.45:605][  3]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.12-00.12.45:605][  3]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.12-00.12.45:608][  3]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.12-00.12.45:638][  3]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Logitech G35 Headset)
+[2024.04.12-00.12.45:638][  3]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.12-00.12.45:638][  3]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.12-00.12.45:638][  3]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.12-00.12.45:638][  3]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2024.04.12-00.12.45:638][  3]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=6
+[2024.04.12-00.12.45:641][  3]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2024.04.12-00.12.45:641][  3]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2024.04.12-00.12.45:641][  3]LogInit: FAudioDevice initialized with ID 6.
+[2024.04.12-00.12.45:641][  3]LogAudio: Display: Audio Device (ID: 6) registered with world 'House'.
+[2024.04.12-00.12.45:641][  3]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2024.04.12-00.12.45:644][  3]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.04.12-00.12.45:649][  3]LogWorld: Bringing World /Game/Levels/UEDPIE_0_House.House up for play (max tick rate 0) at 2024.04.12-02.12.45
+[2024.04.12-00.12.45:651][  3]LogWorld: Bringing up level for play took: 0.005669
+[2024.04.12-00.12.45:653][  3]LogOnline: OSS: Created online subsystem instance for: :Context_13
+[2024.04.12-00.12.45:660][  3]PIE: Server logged in
+[2024.04.12-00.12.45:661][  3]PIE: Play in editor total start time 0,151 seconds.
+[2024.04.12-00.12.47:928][235]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.47:938][236]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.47:947][237]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.47:955][238]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.47:964][239]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.47:973][240]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.47:982][241]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.47:990][242]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:001][243]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:011][244]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:022][245]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:031][246]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:040][247]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:048][248]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:060][249]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:069][250]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:078][251]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:088][252]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:097][253]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:107][254]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:115][255]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:125][256]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:135][257]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:145][258]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:154][259]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:163][260]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:173][261]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:184][262]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:195][263]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:207][264]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:221][265]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:234][266]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:244][267]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:256][268]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:268][269]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:279][270]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:289][271]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:300][272]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:310][273]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:322][274]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:334][275]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:346][276]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:357][277]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:368][278]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:379][279]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:391][280]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:401][281]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:412][282]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:424][283]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:435][284]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:447][285]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:457][286]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:467][287]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:478][288]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:488][289]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:497][290]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:510][291]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:521][292]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:521][292]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:532][293]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:542][294]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:555][295]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:564][296]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:576][297]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:587][298]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:599][299]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:613][300]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:624][301]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:634][302]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:645][303]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:656][304]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:668][305]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:681][306]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:693][307]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:706][308]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:722][309]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:734][310]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:748][311]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:761][312]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:773][313]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:783][314]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:797][315]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:811][316]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:821][317]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:833][318]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:846][319]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:857][320]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.48:870][321]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.12.50:760][509]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.12-00.12.50:760][509]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_House
+[2024.04.12-00.12.50:760][509]LogWorld: UWorld::CleanupWorld for House, bSessionEnded=true, bCleanupResources=true
+[2024.04.12-00.12.50:761][509]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.12-00.12.50:767][509]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.12-00.12.50:774][509]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.12-00.12.50:788][509]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.12-00.12.50:795][509]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2024.04.12-00.12.50:795][509]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.04.12-00.12.50:797][509]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2024.04.12-00.12.50:810][509]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.12-00.12.50:834][509]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2024.04.12-00.12.50:923][510]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2024.04.12-00.12.54:336][824]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.12-00.12.54:342][824]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.12-00.12.54:342][824]PIE: New page: PIE session: House (12. apr. 2024 04.12.54)
+[2024.04.12-00.12.54:370][824]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_House
+[2024.04.12-00.12.54:374][824]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003960s)
+[2024.04.12-00.12.54:374][824]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/House.House to /Game/Levels/UEDPIE_0_House.House (0.004015s)
+[2024.04.12-00.12.54:388][824]LogUObjectHash: Compacting FUObjectHashTables data took   1.06ms
+[2024.04.12-00.12.54:393][824]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.12-00.12.54:393][824]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.12-00.12.54:394][824]LogAIModule: Creating AISystem for world House
+[2024.04.12-00.12.54:394][824]LogPlayLevel: PIE: World Init took: (0.001107s)
+[2024.04.12-00.12.54:394][824]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2024.04.12-00.12.54:394][824]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.12-00.12.54:394][824]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.12-00.12.54:394][824]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.12-00.12.54:394][824]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.12-00.12.54:394][824]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.12-00.12.54:394][824]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.12-00.12.54:394][824]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.12-00.12.54:394][824]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.12-00.12.54:395][824]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.12-00.12.54:395][824]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.12-00.12.54:395][824]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.12-00.12.54:398][824]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.12-00.12.54:425][824]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Logitech G35 Headset)
+[2024.04.12-00.12.54:426][824]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.12-00.12.54:426][824]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.12-00.12.54:426][824]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.12-00.12.54:426][824]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2024.04.12-00.12.54:426][824]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=7
+[2024.04.12-00.12.54:428][824]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2024.04.12-00.12.54:428][824]LogInit: FAudioDevice initialized with ID 7.
+[2024.04.12-00.12.54:428][824]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2024.04.12-00.12.54:428][824]LogAudio: Display: Audio Device (ID: 7) registered with world 'House'.
+[2024.04.12-00.12.54:428][824]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2024.04.12-00.12.54:431][824]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.04.12-00.12.54:437][824]LogWorld: Bringing World /Game/Levels/UEDPIE_0_House.House up for play (max tick rate 0) at 2024.04.12-02.12.54
+[2024.04.12-00.12.54:439][824]LogWorld: Bringing up level for play took: 0.007184
+[2024.04.12-00.12.54:442][824]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2024.04.12-00.12.54:449][824]PIE: Server logged in
+[2024.04.12-00.12.54:450][824]PIE: Play in editor total start time 0,109 seconds.
+[2024.04.12-00.13.13:451][382]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.12-00.13.13:451][382]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_House
+[2024.04.12-00.13.13:451][382]LogWorld: UWorld::CleanupWorld for House, bSessionEnded=true, bCleanupResources=true
+[2024.04.12-00.13.13:452][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.12-00.13.13:456][382]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.12-00.13.13:462][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.12-00.13.13:491][382]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.12-00.13.13:491][382]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2024.04.12-00.13.13:491][382]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.04.12-00.13.13:493][382]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2024.04.12-00.13.13:502][382]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2024.04.12-00.13.13:585][383]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2024.04.12-00.13.44:548][ 79]Cmd: TRANSACTION UNDO
+[2024.04.12-00.13.44:548][ 79]LogEditorTransaction: Undo Rotate Elements
+[2024.04.12-00.13.44:977][ 89]Cmd: TRANSACTION UNDO
+[2024.04.12-00.13.44:977][ 89]LogEditorTransaction: Undo Rotate Elements
+[2024.04.12-00.14.03:065][ 40]LogLiveCoding: Display: Starting Live Coding compile.
+[2024.04.12-00.14.07:403][ 54]LogLiveCoding: Display:    Creating library C:\Users\Frederik\Documents\GitHub\UnrealInitial\Initial\Binaries\Win64\UnrealEditor-Initial.patch_3.lib and object C:\Users\Frederik\Documents\GitHub\UnrealInitial\Initial\Binaries\Win64\UnrealEditor-Initial.patch_3.exp
+[2024.04.12-00.14.07:943][ 56]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2024.04.12-00.14.08:590][ 57]Display: Reload/Re-instancing Complete: No object changes detected
+[2024.04.12-00.14.08:590][ 57]LogLiveCoding: Display: Live coding succeeded
+[2024.04.12-00.14.10:342][206]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.12-00.14.10:348][206]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.12-00.14.10:349][206]PIE: New page: PIE session: House (12. apr. 2024 04.14.10)
+[2024.04.12-00.14.10:349][206]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_House
+[2024.04.12-00.14.10:353][206]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004651s)
+[2024.04.12-00.14.10:353][206]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/House.House to /Game/Levels/UEDPIE_0_House.House (0.004699s)
+[2024.04.12-00.14.10:434][206]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2024.04.12-00.14.10:434][206]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.12-00.14.10:435][206]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.12-00.14.10:435][206]LogAIModule: Creating AISystem for world House
+[2024.04.12-00.14.10:435][206]LogPlayLevel: PIE: World Init took: (0.000983s)
+[2024.04.12-00.14.10:435][206]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2024.04.12-00.14.10:435][206]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.12-00.14.10:435][206]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.12-00.14.10:435][206]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.12-00.14.10:435][206]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.12-00.14.10:435][206]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2024.04.12-00.14.10:435][206]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.12-00.14.10:435][206]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2024.04.12-00.14.10:435][206]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.12-00.14.10:436][206]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.12-00.14.10:436][206]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.12-00.14.10:436][206]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.12-00.14.10:438][206]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.12-00.14.10:473][206]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Logitech G35 Headset)
+[2024.04.12-00.14.10:473][206]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.12-00.14.10:473][206]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.12-00.14.10:473][206]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.12-00.14.10:474][206]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2024.04.12-00.14.10:474][206]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=8, Samples=8192, InstanceID=8
+[2024.04.12-00.14.10:477][206]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2024.04.12-00.14.10:477][206]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2024.04.12-00.14.10:477][206]LogInit: FAudioDevice initialized with ID 8.
+[2024.04.12-00.14.10:477][206]LogAudio: Display: Audio Device (ID: 8) registered with world 'House'.
+[2024.04.12-00.14.10:477][206]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2024.04.12-00.14.10:480][206]LogLoad: Game class is 'BP_ThirdPersonGameMode_C'
+[2024.04.12-00.14.10:485][206]LogWorld: Bringing World /Game/Levels/UEDPIE_0_House.House up for play (max tick rate 0) at 2024.04.12-02.14.10
+[2024.04.12-00.14.10:486][206]LogWorld: Bringing up level for play took: 0.005318
+[2024.04.12-00.14.10:489][206]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2024.04.12-00.14.10:497][206]PIE: Server logged in
+[2024.04.12-00.14.10:498][206]PIE: Play in editor total start time 0,15 seconds.
+[2024.04.12-00.14.18:420][ 64]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.18:874][116]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.19:628][196]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.19:987][234]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.19:995][235]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:004][236]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:016][237]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:029][238]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:038][239]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:038][239]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:047][240]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:056][241]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:065][242]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:074][243]LogBlueprintUserMessages: [AIC_Enemy_C_0] I'm hit
+[2024.04.12-00.14.20:074][243]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:087][244]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:098][245]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:111][246]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:123][247]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:137][248]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:150][249]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:164][250]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:175][251]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:187][252]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:198][253]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:210][254]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:222][255]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:233][256]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:244][257]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:257][258]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:270][259]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:282][260]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:295][261]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:309][262]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:320][263]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:337][264]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:358][265]LogBlueprintUserMessages: [AIC_Enemy_C_0] I'm hit
+[2024.04.12-00.14.20:358][265]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:358][265]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:370][266]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:380][267]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:391][268]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:403][269]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:414][270]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:426][271]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:442][272]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:453][273]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:465][274]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:479][275]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:491][276]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:502][277]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:514][278]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:526][279]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:537][280]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:548][281]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:559][282]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:570][283]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:582][284]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:592][285]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:603][286]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:613][287]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:623][288]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:635][289]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:646][290]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:657][291]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:668][292]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:679][293]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:689][294]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:700][295]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:712][296]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:723][297]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:723][297]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:737][298]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:748][299]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:758][300]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:768][301]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:778][302]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:787][303]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:797][304]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:809][305]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:819][306]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:828][307]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:838][308]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:849][309]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:858][310]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:867][311]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:877][312]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:886][313]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:896][314]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:905][315]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:915][316]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:925][317]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:935][318]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:944][319]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:953][320]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:962][321]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:972][322]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:983][323]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.20:995][324]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.21:005][325]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.21:022][326]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.21:032][327]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.21:032][327]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.21:042][328]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.21:051][329]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.21:061][330]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.21:070][331]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.21:078][332]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.21:089][333]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.21:099][334]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.21:110][335]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.21:121][336]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.21:131][337]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.21:143][338]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.21:153][339]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.21:162][340]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.21:171][341]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.21:182][342]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.21:192][343]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.21:433][368]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.21:474][372]LogBlueprintUserMessages: [AIC_Enemy_C_0] I'm hit
+[2024.04.12-00.14.21:664][392]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.21:674][393]LogBlueprintUserMessages: [AIC_Enemy_C_0] I'm hit
+[2024.04.12-00.14.21:862][412]LogBlueprintUserMessages: [AIC_Enemy_C_0] I'm hit
+[2024.04.12-00.14.21:862][412]LogBlueprintUserMessages: [AIC_Enemy_C_0] I'm hit
+[2024.04.12-00.14.21:862][412]LogBlueprintUserMessages: [AIC_Enemy_C_0] I'm hit
+[2024.04.12-00.14.21:873][413]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.21:896][415]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.21:906][416]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.21:915][417]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.21:927][418]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.21:942][419]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.21:953][420]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.21:971][421]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.21:981][422]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.21:992][423]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:003][424]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:016][425]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:028][426]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:042][427]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:056][428]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:069][429]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:079][430]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:090][431]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:101][432]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:112][433]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:123][434]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:135][435]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:148][436]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:158][437]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:169][438]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:186][439]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:198][440]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:212][441]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:225][442]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:236][443]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:247][444]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:260][445]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:271][446]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:282][447]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:294][448]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:308][449]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:319][450]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:332][451]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:344][452]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:355][453]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:366][454]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:378][455]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:392][456]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:393][456]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:406][457]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:416][458]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:430][459]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:445][460]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:463][461]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:476][462]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:489][463]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:500][464]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:511][465]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:521][466]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:532][467]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:543][468]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:557][469]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:569][470]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:582][471]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:593][472]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:604][473]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:616][474]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:628][475]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:640][476]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:654][477]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:669][478]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:685][479]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:701][480]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:716][481]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:730][482]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:748][483]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:765][484]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:782][485]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:796][486]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:796][486]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:808][487]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:822][488]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:834][489]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:864][490]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:879][491]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:895][492]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:904][493]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:914][494]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:924][495]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:937][496]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:952][497]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:965][498]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:978][499]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.22:995][500]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:010][501]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:030][502]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:100][507]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:113][508]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:124][509]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:137][510]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:148][511]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:157][512]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:167][513]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:178][514]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:188][515]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:198][516]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:208][517]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:220][518]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:235][519]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:244][520]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:253][521]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:262][522]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:274][523]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:286][524]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:295][525]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:304][526]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:314][527]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:323][528]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:333][529]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:342][530]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:354][531]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:364][532]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:372][533]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:383][534]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:395][535]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:406][536]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:415][537]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:424][538]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:432][539]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:444][540]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:453][541]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:466][542]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:475][543]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:484][544]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:495][545]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:504][546]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:504][546]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:514][547]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:523][548]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:531][549]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:540][550]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:548][551]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:557][552]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:568][553]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:577][554]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:586][555]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:595][556]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:605][557]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:614][558]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:623][559]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:631][560]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:639][561]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:651][562]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:659][563]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:669][564]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:681][565]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:692][566]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:702][567]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:712][568]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:722][569]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:734][570]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.23:743][571]LogBlueprintUserMessages: [AIC_Enemy_C_0] I hear you
+[2024.04.12-00.14.24:001][593]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.12-00.14.24:001][593]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_House
+[2024.04.12-00.14.24:001][593]LogWorld: UWorld::CleanupWorld for House, bSessionEnded=true, bCleanupResources=true
+[2024.04.12-00.14.24:002][593]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.12-00.14.24:008][593]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.04.12-00.14.24:014][593]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.12-00.14.24:033][593]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.04.12-00.14.24:039][593]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2024.04.12-00.14.24:039][593]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.04.12-00.14.24:040][593]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8
+[2024.04.12-00.14.24:046][593]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.04.12-00.14.24:080][593]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2024.04.12-00.14.24:180][594]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2024.04.12-00.14.25:609][726]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.12-00.14.25:632][726]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/House" FILE="../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/Levels/House.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2024.04.12-00.14.25:673][726]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.04.12-00.14.25:692][726]LogSavePackage: Moving output files for package: /Game/Levels/House
+[2024.04.12-00.14.25:694][726]LogSavePackage: Moving '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Saved/House7D4BBA814D6FFA52C7BA739DFAF98F76.tmp' to '../../../../../../Users/Frederik/Documents/GitHub/UnrealInitial/Initial/Content/Levels/House.umap'
+[2024.04.12-00.14.25:701][726]LogFileHelpers: Saving map 'House' took 0.069
+[2024.04.12-00.14.25:708][726]LogFileHelpers: InternalPromptForCheckoutAndSave took 99 ms (total: 660 ms)
+[2024.04.12-00.14.25:711][726]AssetCheck: New page: Asset Save: House
+[2024.04.12-00.14.25:711][726]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/House.House
